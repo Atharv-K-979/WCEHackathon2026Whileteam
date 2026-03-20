@@ -46,8 +46,8 @@ function PasteVis() {
       <div className="fvis-body">
         <div className="paste-modal">
           <div className="pm-title">⚡ VESSEL detected 2 sensitive items</div>
-          <div className="pm-item">🔑 <span style={{flex: 1}}>AWS Access Key</span><code style={{fontSize: 12, color: '#DC2626'}}>AKIAIOSFODNN7E...</code></div>
-          <div className="pm-item">💳 <span style={{flex: 1}}>Credit Card (Luhn ✓)</span><code style={{fontSize: 12, color: '#DC2626'}}>4111 1111 1111...</code></div>
+          <div className="pm-item">🔑 <span style={{ flex: 1 }}>AWS Access Key</span><code style={{ fontSize: 12, color: '#DC2626' }}>AKIAIOSFODNN7E...</code></div>
+          <div className="pm-item">💳 <span style={{ flex: 1 }}>Credit Card (Luhn ✓)</span><code style={{ fontSize: 12, color: '#DC2626' }}>4111 1111 1111...</code></div>
           <div className="pm-btns">
             <button className="pb-r">Redact &amp; Paste</button>
             <button className="pb-o">Cancel</button>
@@ -137,7 +137,10 @@ export default function VesselLanding() {
             <li key={l}><a href={`#${l.toLowerCase().replace(/ /g, "-")}`}>{l}</a></li>
           ))}
         </ul>
-        <button className="nav-cta">Install Free →</button>
+        {/* <button className="nav-cta">Install Free →</button> */}
+        <a href="/vessel-linux-x64.tar.gz" download style={{ textDecoration: 'none' }}>
+          <button className="nav-cta">Download OS Agent →</button>
+        </a>
       </nav>
 
       {/* HERO */}
