@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>VESSEL Settings</title>
+    <style>
+        :root {
+            --bg-primary: #0D1117;
+            --bg-secondary: rgba(22, 27, 34, 0.6);
+            --bg-panel: #161B22;
+            --text-primary: #F0F6FC;
+            --text-secondary: #8B949E;
+            --accent: #58A6FF;
+            --success: #238636;
+            --danger: #DA3633;
+            --border-color: rgba(240, 246, 252, 0.1);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 640px;
+            margin: 40px auto;
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            padding: 24px;
+            background: var(--bg-secondary);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--accent);
+            text-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
+        }
+
+        .status-badge {
+            font-size: 12px;
+            padding: 6px 12px;
+            background: rgba(35, 134, 54, 0.2);
+            color: var(--success);
+            border: 1px solid rgba(35, 134, 54, 0.4);
+            border-radius: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            box-shadow: 0 0 10px rgba(35, 134, 54, 0.2);
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .section {
+            margin-bottom: 24px;
+            background: var(--bg-secondary);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .section:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+            border-color: rgba(88, 166, 255, 0.3);
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .setting-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .setting-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .setting-info {
+            flex: 1;
+        }
+
+        .setting-label {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .setting-desc {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        /* Toggle Switch */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(240, 246, 252, 0.1);
+            border: 1px solid var(--border-color);
+            transition: .3s;
+            border-radius: 24px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 2px;
+            bottom: 2px;
+            background-color: var(--text-secondary);
+            transition: .3s;
+            border-radius: 50%;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        input:checked+.slider {
+            background-color: rgba(88, 166, 255, 0.2);
+            border-color: var(--accent);
+        }
+
+        input:checked+.slider:before {
+            transform: translateX(18px);
+            background-color: var(--accent);
+            box-shadow: 0 0 8px rgba(88, 166, 255, 0.6);
+        }
+
+        /* Range Input */
+        input[type=range] {
+            width: 150px;
+            accent-color: var(--accent);
+        }
+
+        .range-value {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            width: 30px;
+            text-align: right;
+        }
+
+        input[type="password"] {
+            background: rgba(240, 246, 252, 0.05);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        input[type="password"]:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 2px rgba(88, 166, 255, 0.2);
+        }
+
+        .patterns-list {
+            background: rgba(240, 246, 252, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 12px;
+        }
+
+        .pattern-tag {
+            display: inline-block;
+            background: rgba(88, 166, 255, 0.1);
+            border: 1px solid rgba(88, 166, 255, 0.2);
+            border-radius: 4px;
+            padding: 4px 8px;
+            font-size: 12px;
+            color: var(--accent);
+            margin: 2px;
+        }
+
+        .footer {
+            margin-top: 16px;
+            padding: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .status-msg {
+            font-size: 13px;
+            color: var(--success);
+            font-weight: 500;
+            opacity: 0;
+            transition: opacity 0.3s;
+            text-shadow: 0 0 8px rgba(35, 134, 54, 0.4);
+        }
+
+        .learn-more {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .learn-more:hover {
+            color: #79c0ff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <span>VESSEL Settings</span>
+            </div>
+            <div class="status-badge">Protection Active</div>
+        </div>
+
+        <div class="content">
+            <!-- Feature 1 -->
+            <div class="section">
+                <div class="section-title">AI Prompt Injection Defense</div>
+                <div class="setting-item">
+                    <div class="setting-info">
+                        <div class="setting-label">Enable Protection</div>
+                        <div class="setting-desc">Intercepts and analyzes clicks on AI extension buttons.</div>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="feature-ai-defense" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <div class="setting-info">
+                        <div class="setting-label">Threat Threshold</div>
+                        <div class="setting-desc">Sensitivity for blocking potential injections (0.1 - 1.0).</div>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <input type="range" id="threshold-ai" min="0.1" max="1.0" step="0.1" value="0.7">
+                        <span class="range-value" id="threshold-ai-val">0.7</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="section">
+                <div class="section-title">AI Configuration</div>
+                <div class="setting-item">
+                    <div class="setting-info">
+                        <div class="setting-label">Gemini API Key</div>
+                        <div class="setting-desc">Required for cloud-based requirement generation.</div>
+                    </div>
+                    <div>
+                        <input type="password" id="gemini-api-key" placeholder="Enter API Key"
+                            style="padding: 10px; border-radius: 6px; width: 220px;">
+                    </div>
+                </div>
+
+                <!-- Model Preference Toggle -->
+                <div class="setting-item" style="flex-direction: column; align-items: flex-start; gap: 10px;">
+                    <div class="setting-label">Requirement Engine</div>
+                    <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                        <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:14px; color:var(--text-primary);">
+                            <input type="radio" id="model-pref-gemini" name="specModelPreference" value="gemini"
+                                style="accent-color: var(--accent);">
+                             Gemini (cloud – more accurate)
+                        </label>
+                        <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:14px; color:var(--text-primary);">
+                            <input type="radio" id="model-pref-local" name="specModelPreference" value="local"
+                                style="accent-color: var(--accent);">
+                             Local model (privacy-first, offline)
+                        </label>
+                    </div>
+                    <div class="setting-desc">When Gemini is selected but unavailable, VESSEL automatically falls back to the local model.</div>
+                    <!-- Model status indicator -->
+                    <div id="model-status" style="
+                        background: rgba(240,246,252,0.05);
+                        border: 1px solid var(--border-color);
+                        border-radius: 6px;
+                        padding: 8px 12px;
+                        font-size: 12px;
+                        color: var(--text-secondary);
+                        width: 100%;
+                    ">🔄 Checking model status…</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Secure Specification Assistant</div>
+                <div class="setting-item">
+                    <div class="setting-info">
+                        <div class="setting-label">Enable Assistant</div>
+                        <div class="setting-desc">Analyzes spec editors for missing security requirements.</div>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="feature-spec-assist" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="section">
+                <div class="section-title">Paste Redactor</div>
+                <div class="setting-item">
+                    <div class="setting-info">
+                        <div class="setting-label">Enable Redaction</div>
+                        <div class="setting-desc">Scans pasted text for sensitive data.</div>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="feature-paste-redact" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item" style="display: block; margin-top: 16px;">
+                    <div class="setting-label">Active Patterns</div>
+                    <div class="patterns-list" id="patterns-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="https://medium.com" target="_blank" class="learn-more">Learn More About VESSEL</a>
+            <span class="status-msg" id="status-msg">Settings Saved</span>
+        </div>
+    </div>
+
+    <script src="options.js" type="module"></script>
+</body>
+
+</html>

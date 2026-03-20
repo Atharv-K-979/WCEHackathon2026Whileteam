@@ -1,0 +1,87 @@
+{
+  "manifest_version": 3,
+  "name": "VESSEL - AI & Data Security",
+  "version": "1.0.0",
+  "description": "Comprehensive security tool: AI prompt injection defense, secure spec assistant, and paste redaction.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content-ai-interceptor.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "https://*.atlassian.net/*",
+        "https://*.notion.so/*",
+        "http://127.0.0.1:5500/*"
+      ],
+      "js": [
+        "content-spec-watcher.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content-paste-redactor.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "lib/patterns.js",
+        "lib/sanitizer.js",
+        "lib/ui-utils.js",
+        "lib/redactor.js",
+        "lib/ml-engine.js",
+        "lib/onnxruntime-web.min.js",
+        "lib/gemini-client.js",
+        "lib/transformers.js",
+        "lib/*.wasm",
+        "models/*.onnx",
+        "icons/*.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "VESSEL Security"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+  }
+}

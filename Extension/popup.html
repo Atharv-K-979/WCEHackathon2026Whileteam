@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>VESSEL Security</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+    :root {
+      --bg:       #0D1117;
+      --surface:  rgba(22,27,34,0.85);
+      --panel:    #161B22;
+      --text:     #F0F6FC;
+      --muted:    #8B949E;
+      --accent:   #58A6FF;
+      --green:    #3FB950;
+      --danger:   #F85149;
+      --border:   rgba(240,246,252,0.1);
+      --primary:  #0a5c36;
+      --grad:     linear-gradient(135deg,#0a5c36 0%,#1a9e5c 100%);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      width: 360px;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ── Header ──────────────────────────────────────────────── */
+    .header {
+      padding: 16px 18px;
+      background: var(--surface);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-weight: 800; font-size: 18px;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .logo-icon { font-style: normal; font-size: 20px; -webkit-text-fill-color: initial; }
+    .status-badge {
+      font-size: 10px; padding: 4px 10px;
+      background: rgba(63,185,80,0.15);
+      color: var(--green);
+      border: 1px solid rgba(63,185,80,0.35);
+      border-radius: 20px;
+      font-weight: 700; letter-spacing: 0.5px;
+      text-transform: uppercase;
+      animation: pulse-badge 2.5s infinite;
+    }
+    @keyframes pulse-badge {
+      0%,100% { box-shadow: 0 0 0 0 rgba(63,185,80,0); }
+      50%      { box-shadow: 0 0 0 4px rgba(63,185,80,0.2); }
+    }
+
+    .container { padding: 16px 18px; }
+
+    /* ── Security Score Ring ──────────────────────────────────── */
+    .score-ring-wrapper {
+      display: flex; flex-direction: column; align-items: center;
+      margin-bottom: 18px;
+      padding: 18px;
+      background: var(--surface);
+      border-radius: 14px;
+      border: 1px solid var(--border);
+    }
+    .score-ring {
+      position: relative; width: 92px; height: 92px; margin-bottom: 10px;
+    }
+    .score-ring svg { transform: rotate(-90deg); }
+    .score-ring .track { fill: none; stroke: rgba(240,246,252,0.08); stroke-width: 8; }
+    .score-ring .fill  {
+      fill: none; stroke: url(#ringGrad); stroke-width: 8;
+      stroke-dasharray: 251.2;
+      stroke-dashoffset: 25.12; /* 90% filled = 251.2 * 0.10 */
+      stroke-linecap: round;
+      transition: stroke-dashoffset 1.2s ease;
+    }
+    .score-label {
+      position: absolute; top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 22px; font-weight: 800;
+      color: var(--text);
+    }
+    .score-caption { font-size: 12px; color: var(--muted); font-weight: 500; letter-spacing: 0.3px; }
+    .score-grade   { font-size: 30px; font-weight: 800; color: var(--green); margin-bottom: 2px; }
+
+    /* ── Stats Grid ──────────────────────────────────────────── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 10px;
+      text-align: center;
+      transition: transform 0.18s cubic-bezier(0.34,1.56,0.64,1), border-color 0.2s;
+    }
+    .stat-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(58,166,255,0.35);
+    }
+    .stat-icon { font-size: 18px; margin-bottom: 4px; }
+    .stat-value {
+      font-size: 22px; font-weight: 800;
+      margin-bottom: 2px;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .stat-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+
+    /* ── Feature Status ─────────────────────────────────────── */
+    .feature-grid {
+      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px;
+      margin-bottom: 16px;
+    }
+    .feature-pill {
+      background: rgba(63,185,80,0.1);
+      border: 1px solid rgba(63,185,80,0.25);
+      border-radius: 10px;
+      padding: 8px 6px;
+      text-align: center;
+      font-size: 10px; font-weight: 700;
+      color: var(--green);
+      letter-spacing: 0.3px;
+      transition: transform 0.15s;
+    }
+    .feature-pill:hover { transform: scale(1.04); }
+    .feature-pill .fi { font-size: 14px; display: block; margin-bottom: 3px; }
+
+    /* ── Activity ───────────────────────────────────────────── */
+    .section-header {
+      font-size: 11px; font-weight: 700; color: var(--muted);
+      margin-bottom: 10px;
+      display: flex; justify-content: space-between; align-items: center;
+      text-transform: uppercase; letter-spacing: 0.6px;
+    }
+    .activity-list {
+      background: var(--surface);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      margin-bottom: 16px;
+    }
+    .activity-item {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 10px;
+      transition: background 0.15s;
+    }
+    .activity-item:last-child { border-bottom: none; }
+    .activity-item:hover { background: rgba(240,246,252,0.05); }
+    .activity-icon {
+      width: 30px; height: 30px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px;
+      background: rgba(88,166,255,0.1);
+      flex-shrink: 0;
+    }
+    .activity-title { font-size: 12px; font-weight: 500; color: var(--text); margin-bottom: 1px; }
+    .activity-meta  { font-size: 10px; color: var(--muted); }
+    .empty-state    { padding: 20px; text-align: center; color: var(--muted); font-size: 12px; }
+
+    /* ── Footer ─────────────────────────────────────────────── */
+    .footer {
+      padding: 14px 18px;
+      border-top: 1px solid var(--border);
+      background: var(--bg);
+    }
+    .btn-group { display: flex; gap: 10px; margin-bottom: 12px; }
+    .btn {
+      flex: 1; padding: 10px; border-radius: 10px;
+      border: 1px solid transparent; cursor: pointer;
+      font-size: 13px; font-weight: 700;
+      font-family: inherit;
+      transition: transform 0.15s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.15s;
+    }
+    .btn:hover  { transform: translateY(-2px); }
+    .btn:active { transform: scale(0.98); }
+    .btn-primary {
+      background: var(--grad);
+      color: white;
+      box-shadow: 0 2px 10px rgba(10,92,54,0.4);
+    }
+    .btn-primary:hover  { box-shadow: 0 4px 18px rgba(10,92,54,0.6); }
+    .btn-secondary {
+      background: var(--surface);
+      color: var(--text);
+      border-color: var(--border);
+    }
+    .btn-secondary:hover { border-color: rgba(88,166,255,0.4); }
+    .learn-more {
+      display: block; text-align: center;
+      color: var(--accent); text-decoration: none;
+      font-size: 11px; font-weight: 500;
+      transition: color 0.15s;
+    }
+    .learn-more:hover { color: #79c0ff; text-decoration: underline; }
+  </style>
+</head>
+
+<body>
+  <div class="header" role="banner">
+    <div class="logo">
+      <span class="logo-icon">⚡</span> VESSEL
+    </div>
+    <div class="status-badge" role="status" aria-live="polite">Protection Active</div>
+  </div>
+
+  <div class="container" role="main">
+    <!-- Security Score Ring -->
+    <div class="score-ring-wrapper">
+      <div class="score-ring" aria-label="Security Grade">
+        <svg width="92" height="92" viewBox="0 0 92 92">
+          <defs>
+            <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%"   stop-color="#0a5c36"/>
+              <stop offset="100%" stop-color="#1a9e5c"/>
+            </linearGradient>
+          </defs>
+          <circle class="track" cx="46" cy="46" r="40"/>
+          <circle class="fill"  cx="46" cy="46" r="40" id="score-circle"/>
+        </svg>
+        <div class="score-label" id="score-pct">A+</div>
+      </div>
+      <div class="score-grade" id="security-grade">Excellent</div>
+      <div class="score-caption">Overall Security Posture</div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-grid" role="region" aria-label="Security Statistics">
+      <div class="stat-card">
+        <div class="stat-icon">🛡️</div>
+        <div class="stat-value" id="threats-blocked">0</div>
+        <div class="stat-label">Threats</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">📝</div>
+        <div class="stat-value" id="specs-analyzed">0</div>
+        <div class="stat-label">Specs</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🔒</div>
+        <div class="stat-value" id="redactions-count">0</div>
+        <div class="stat-label">Redactions</div>
+      </div>
+    </div>
+
+    <!-- Feature Status Pills -->
+    <div class="feature-grid" role="region" aria-label="Active Features">
+      <div class="feature-pill" title="AI Prompt Injection Defense">
+        <span class="fi">🤖</span>AI Defense
+      </div>
+      <div class="feature-pill" title="Secure Spec Assistant">
+        <span class="fi">📝</span>Spec Guard
+      </div>
+      <div class="feature-pill" title="Paste Redactor">
+        <span class="fi">✂️</span>Redactor
+      </div>
+    </div>
+
+    <!-- Recent Activity -->
+    <div class="section-header">
+      <span>Recent Activity</span>
+      <span style="font-size:11px;cursor:pointer;color:var(--accent);" id="view-all">View All</span>
+    </div>
+    <div class="activity-list" id="activity-list" role="log" aria-live="polite" aria-label="Recent security events">
+      <div class="empty-state">No recent activity yet.</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="btn-group">
+      <button class="btn btn-secondary" id="open-options" aria-label="Open VESSEL Settings">⚙️ Settings</button>
+      <button class="btn btn-primary" id="open-dashboard" aria-label="Open VESSEL Dashboard">📊 Dashboard</button>
+    </div>
+    <a href="https://medium.com/@atharvvk853/vessel-vulnerability-evaluation-and-secure-software-engineering-layer-78250e113b8a"
+       target="_blank" class="learn-more" rel="noopener">Learn More About VESSEL →</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

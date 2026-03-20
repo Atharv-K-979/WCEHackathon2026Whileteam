@@ -1,0 +1,889 @@
+id,text,missing_auth,missing_authz,missing_encryption,missing_validation,missing_audit,missing_ratelimit,category,is_augmented
+1,Center the logo image on the landing page.,0,0,0,0,0,0,user_interface,0
+1_aug_0,Ensure that Center the logo image on the landing page. (Variation 1),0,0,0,0,0,0,user_interface,1
+1_aug_1,It is required to Center the logo image on the landing page. (Variation 2),0,0,0,0,0,0,user_interface,1
+1_aug_2,The system shall Center the logo image on the landing page. (Variation 3),0,0,0,0,0,0,user_interface,1
+2,API to fetch details for item 32.,0,1,0,0,0,1,api_endpoint,0
+2_aug_3,Ensure that API to fetch details for item 32. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+2_aug_4,It is required to API to fetch details for item 32. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+2_aug_5,The system shall API to fetch details for item 32. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+3,Update the color scheme for component 19.,0,0,0,0,0,0,user_interface,0
+3_aug_6,Ensure that Update the color scheme for component 19. (Variation 1),0,0,0,0,0,0,user_interface,1
+3_aug_7,It is required to Update the color scheme for component 19. (Variation 2),0,0,0,0,0,0,user_interface,1
+3_aug_8,The system shall Update the color scheme for component 19. (Variation 3),0,0,0,0,0,0,user_interface,1
+4,Endpoint to reset password via email link.,0,0,1,1,1,1,authentication,0
+4_aug_9,Ensure that Endpoint to reset password via email link. (Variation 1),0,0,1,1,1,1,authentication,1
+4_aug_10,It is required to Endpoint to reset password via email link. (Variation 2),0,0,1,1,1,1,authentication,1
+4_aug_11,The system shall Endpoint to reset password via email link. (Variation 3),0,0,1,1,1,1,authentication,1
+5,Send SMS notifications with OTP.,1,0,0,1,1,1,notification,0
+5_aug_12,Ensure that Send SMS notifications with OTP. (Variation 1),1,0,0,1,1,1,notification,1
+5_aug_13,It is required to Send SMS notifications with OTP. (Variation 2),1,0,0,1,1,1,notification,1
+5_aug_14,The system shall Send SMS notifications with OTP. (Variation 3),1,0,0,1,1,1,notification,1
+6,Admin tool to modify transaction 21.,1,1,0,1,1,0,admin_function,0
+6_aug_15,Ensure that Admin tool to modify transaction 21. (Variation 1),1,1,0,1,1,0,admin_function,1
+6_aug_16,It is required to Admin tool to modify transaction 21. (Variation 2),1,1,0,1,1,0,admin_function,1
+6_aug_17,The system shall Admin tool to modify transaction 21. (Variation 3),1,1,0,1,1,0,admin_function,1
+7,Store user medical history in the DB.,1,1,1,0,1,0,data_storage,0
+7_aug_18,Ensure that Store user medical history in the DB. (Variation 1),1,1,1,0,1,0,data_storage,1
+7_aug_19,It is required to Store user medical history in the DB. (Variation 2),1,1,1,0,1,0,data_storage,1
+7_aug_20,The system shall Store user medical history in the DB. (Variation 3),1,1,1,0,1,0,data_storage,1
+8,Admin tool to modify transaction 27.,1,1,0,1,1,0,admin_function,0
+8_aug_21,Ensure that Admin tool to modify transaction 27. (Variation 1),1,1,0,1,1,0,admin_function,1
+8_aug_22,It is required to Admin tool to modify transaction 27. (Variation 2),1,1,0,1,1,0,admin_function,1
+8_aug_23,The system shall Admin tool to modify transaction 27. (Variation 3),1,1,0,1,1,0,admin_function,1
+9,Admin tool to modify transaction 35.,1,1,0,1,1,0,admin_function,0
+9_aug_24,Ensure that Admin tool to modify transaction 35. (Variation 1),1,1,0,1,1,0,admin_function,1
+9_aug_25,It is required to Admin tool to modify transaction 35. (Variation 2),1,1,0,1,1,0,admin_function,1
+9_aug_26,The system shall Admin tool to modify transaction 35. (Variation 3),1,1,0,1,1,0,admin_function,1
+10,Government ID verification service.,1,1,1,1,1,1,integration,0
+10_aug_27,Ensure that Government ID verification service. (Variation 1),1,1,1,1,1,1,integration,1
+10_aug_28,It is required to Government ID verification service. (Variation 2),1,1,1,1,1,1,integration,1
+10_aug_29,The system shall Government ID verification service. (Variation 3),1,1,1,1,1,1,integration,1
+11,Admin tool to modify transaction 17.,1,1,0,1,1,0,admin_function,0
+11_aug_30,Ensure that Admin tool to modify transaction 17. (Variation 1),1,1,0,1,1,0,admin_function,1
+11_aug_31,It is required to Admin tool to modify transaction 17. (Variation 2),1,1,0,1,1,0,admin_function,1
+11_aug_32,The system shall Admin tool to modify transaction 17. (Variation 3),1,1,0,1,1,0,admin_function,1
+12,Validate that the email field contains an '@' symbol.,0,0,0,0,0,0,user_interface,0
+12_aug_33,Ensure that Validate that the email field contains an '@' symbol. (Variation 1),0,0,0,0,0,0,user_interface,1
+12_aug_34,It is required to Validate that the email field contains an '@' symbol. (Variation 2),0,0,0,0,0,0,user_interface,1
+12_aug_35,The system shall Validate that the email field contains an '@' symbol. (Variation 3),0,0,0,0,0,0,user_interface,1
+13,Change the font size of the header to 24px.,0,0,0,0,0,0,user_interface,0
+13_aug_36,Ensure that Change the font size of the header to 24px. (Variation 1),0,0,0,0,0,0,user_interface,1
+13_aug_37,It is required to Change the font size of the header to 24px. (Variation 2),0,0,0,0,0,0,user_interface,1
+13_aug_38,The system shall Change the font size of the header to 24px. (Variation 3),0,0,0,0,0,0,user_interface,1
+14,Critical system 38 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+14_aug_39,Ensure that Critical system 38 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+14_aug_40,It is required to Critical system 38 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+14_aug_41,The system shall Critical system 38 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+15,Admin tool to modify transaction 1.,1,1,0,1,1,0,admin_function,0
+15_aug_42,Ensure that Admin tool to modify transaction 1. (Variation 1),1,1,0,1,1,0,admin_function,1
+15_aug_43,It is required to Admin tool to modify transaction 1. (Variation 2),1,1,0,1,1,0,admin_function,1
+15_aug_44,The system shall Admin tool to modify transaction 1. (Variation 3),1,1,0,1,1,0,admin_function,1
+16,Critical system 24 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+16_aug_45,Ensure that Critical system 24 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+16_aug_46,It is required to Critical system 24 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+16_aug_47,The system shall Critical system 24 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+17,Admin tool to modify transaction 18.,1,1,0,1,1,0,admin_function,0
+17_aug_48,Ensure that Admin tool to modify transaction 18. (Variation 1),1,1,0,1,1,0,admin_function,1
+17_aug_49,It is required to Admin tool to modify transaction 18. (Variation 2),1,1,0,1,1,0,admin_function,1
+17_aug_50,The system shall Admin tool to modify transaction 18. (Variation 3),1,1,0,1,1,0,admin_function,1
+18,Synchronize all customer data to external CRM.,1,0,1,0,1,0,integration,0
+18_aug_51,Ensure that Synchronize all customer data to external CRM. (Variation 1),1,0,1,0,1,0,integration,1
+18_aug_52,It is required to Synchronize all customer data to external CRM. (Variation 2),1,0,1,0,1,0,integration,1
+18_aug_53,The system shall Synchronize all customer data to external CRM. (Variation 3),1,0,1,0,1,0,integration,1
+19,API to fetch details for item 16.,0,1,0,0,0,1,api_endpoint,0
+19_aug_54,Ensure that API to fetch details for item 16. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+19_aug_55,It is required to API to fetch details for item 16. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+19_aug_56,The system shall API to fetch details for item 16. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+20,API to fetch details for item 5.,0,1,0,0,0,1,api_endpoint,0
+20_aug_57,Ensure that API to fetch details for item 5. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+20_aug_58,It is required to API to fetch details for item 5. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+20_aug_59,The system shall API to fetch details for item 5. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+21,Update the color scheme for component 1.,0,0,0,0,0,0,user_interface,0
+21_aug_60,Ensure that Update the color scheme for component 1. (Variation 1),0,0,0,0,0,0,user_interface,1
+21_aug_61,It is required to Update the color scheme for component 1. (Variation 2),0,0,0,0,0,0,user_interface,1
+21_aug_62,The system shall Update the color scheme for component 1. (Variation 3),0,0,0,0,0,0,user_interface,1
+22,Critical system 7 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+22_aug_63,Ensure that Critical system 7 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+22_aug_64,It is required to Critical system 7 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+22_aug_65,The system shall Critical system 7 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+23,Update the color scheme for component 13.,0,0,0,0,0,0,user_interface,0
+23_aug_66,Ensure that Update the color scheme for component 13. (Variation 1),0,0,0,0,0,0,user_interface,1
+23_aug_67,It is required to Update the color scheme for component 13. (Variation 2),0,0,0,0,0,0,user_interface,1
+23_aug_68,The system shall Update the color scheme for component 13. (Variation 3),0,0,0,0,0,0,user_interface,1
+24,Endpoint to update user status message.,1,0,0,1,0,0,api_endpoint,0
+24_aug_69,Ensure that Endpoint to update user status message. (Variation 1),1,0,0,1,0,0,api_endpoint,1
+24_aug_70,It is required to Endpoint to update user status message. (Variation 2),1,0,0,1,0,0,api_endpoint,1
+24_aug_71,The system shall Endpoint to update user status message. (Variation 3),1,0,0,1,0,0,api_endpoint,1
+25,Update the color scheme for component 26.,0,0,0,0,0,0,user_interface,0
+25_aug_72,Ensure that Update the color scheme for component 26. (Variation 1),0,0,0,0,0,0,user_interface,1
+25_aug_73,It is required to Update the color scheme for component 26. (Variation 2),0,0,0,0,0,0,user_interface,1
+25_aug_74,The system shall Update the color scheme for component 26. (Variation 3),0,0,0,0,0,0,user_interface,1
+26,API to fetch details for item 3.,0,1,0,0,0,1,api_endpoint,0
+26_aug_75,Ensure that API to fetch details for item 3. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+26_aug_76,It is required to API to fetch details for item 3. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+26_aug_77,The system shall API to fetch details for item 3. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+27,Hide the sidebar on mobile devices.,0,0,0,0,0,0,user_interface,0
+27_aug_78,Ensure that Hide the sidebar on mobile devices. (Variation 1),0,0,0,0,0,0,user_interface,1
+27_aug_79,It is required to Hide the sidebar on mobile devices. (Variation 2),0,0,0,0,0,0,user_interface,1
+27_aug_80,The system shall Hide the sidebar on mobile devices. (Variation 3),0,0,0,0,0,0,user_interface,1
+28,Write a script to count lines in a text file.,0,0,0,0,0,0,trivial,0
+28_aug_81,Ensure that Write a script to count lines in a text file. (Variation 1),0,0,0,0,0,0,trivial,1
+28_aug_82,It is required to Write a script to count lines in a text file. (Variation 2),0,0,0,0,0,0,trivial,1
+28_aug_83,The system shall Write a script to count lines in a text file. (Variation 3),0,0,0,0,0,0,trivial,1
+29,Webhook listener for 3rd party events.,1,0,0,1,0,0,integration,0
+29_aug_84,Ensure that Webhook listener for 3rd party events. (Variation 1),1,0,0,1,0,0,integration,1
+29_aug_85,It is required to Webhook listener for 3rd party events. (Variation 2),1,0,0,1,0,0,integration,1
+29_aug_86,The system shall Webhook listener for 3rd party events. (Variation 3),1,0,0,1,0,0,integration,1
+30,Create an API to transfer funds between accounts.,1,1,0,1,1,0,payment,0
+30_aug_87,Ensure that Create an API to transfer funds between accounts. (Variation 1),1,1,0,1,1,0,payment,1
+30_aug_88,It is required to Create an API to transfer funds between accounts. (Variation 2),1,1,0,1,1,0,payment,1
+30_aug_89,The system shall Create an API to transfer funds between accounts. (Variation 3),1,1,0,1,1,0,payment,1
+31,Update the color scheme for component 10.,0,0,0,0,0,0,user_interface,0
+31_aug_90,Ensure that Update the color scheme for component 10. (Variation 1),0,0,0,0,0,0,user_interface,1
+31_aug_91,It is required to Update the color scheme for component 10. (Variation 2),0,0,0,0,0,0,user_interface,1
+31_aug_92,The system shall Update the color scheme for component 10. (Variation 3),0,0,0,0,0,0,user_interface,1
+32,Admin tool to modify transaction 9.,1,1,0,1,1,0,admin_function,0
+32_aug_93,Ensure that Admin tool to modify transaction 9. (Variation 1),1,1,0,1,1,0,admin_function,1
+32_aug_94,It is required to Admin tool to modify transaction 9. (Variation 2),1,1,0,1,1,0,admin_function,1
+32_aug_95,The system shall Admin tool to modify transaction 9. (Variation 3),1,1,0,1,1,0,admin_function,1
+33,Sort the table of product names alphabetically.,0,0,0,0,0,0,user_interface,0
+33_aug_96,Ensure that Sort the table of product names alphabetically. (Variation 1),0,0,0,0,0,0,user_interface,1
+33_aug_97,It is required to Sort the table of product names alphabetically. (Variation 2),0,0,0,0,0,0,user_interface,1
+33_aug_98,The system shall Sort the table of product names alphabetically. (Variation 3),0,0,0,0,0,0,user_interface,1
+34,Display the version number in the settings menu.,0,0,0,0,0,0,user_interface,0
+34_aug_99,Ensure that Display the version number in the settings menu. (Variation 1),0,0,0,0,0,0,user_interface,1
+34_aug_100,It is required to Display the version number in the settings menu. (Variation 2),0,0,0,0,0,0,user_interface,1
+34_aug_101,The system shall Display the version number in the settings menu. (Variation 3),0,0,0,0,0,0,user_interface,1
+35,Create user registration flow.,0,0,1,1,0,1,authentication,0
+35_aug_102,Ensure that Create user registration flow. (Variation 1),0,0,1,1,0,1,authentication,1
+35_aug_103,It is required to Create user registration flow. (Variation 2),0,0,1,1,0,1,authentication,1
+35_aug_104,The system shall Create user registration flow. (Variation 3),0,0,1,1,0,1,authentication,1
+36,Nuclear reactor control dashboard.,1,1,1,1,1,1,admin_function,0
+36_aug_105,Ensure that Nuclear reactor control dashboard. (Variation 1),1,1,1,1,1,1,admin_function,1
+36_aug_106,It is required to Nuclear reactor control dashboard. (Variation 2),1,1,1,1,1,1,admin_function,1
+36_aug_107,The system shall Nuclear reactor control dashboard. (Variation 3),1,1,1,1,1,1,admin_function,1
+37,Critical system 13 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+37_aug_108,Ensure that Critical system 13 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+37_aug_109,It is required to Critical system 13 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+37_aug_110,The system shall Critical system 13 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+38,API to fetch details for item 22.,0,1,0,0,0,1,api_endpoint,0
+38_aug_111,Ensure that API to fetch details for item 22. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+38_aug_112,It is required to API to fetch details for item 22. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+38_aug_113,The system shall API to fetch details for item 22. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+39,Update the color scheme for component 2.,0,0,0,0,0,0,user_interface,0
+39_aug_114,Ensure that Update the color scheme for component 2. (Variation 1),0,0,0,0,0,0,user_interface,1
+39_aug_115,It is required to Update the color scheme for component 2. (Variation 2),0,0,0,0,0,0,user_interface,1
+39_aug_116,The system shall Update the color scheme for component 2. (Variation 3),0,0,0,0,0,0,user_interface,1
+40,Critical system 11 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+40_aug_117,Ensure that Critical system 11 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+40_aug_118,It is required to Critical system 11 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+40_aug_119,The system shall Critical system 11 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+41,Implement a dark mode toggle switch.,0,0,0,0,0,0,user_interface,0
+41_aug_120,Ensure that Implement a dark mode toggle switch. (Variation 1),0,0,0,0,0,0,user_interface,1
+41_aug_121,It is required to Implement a dark mode toggle switch. (Variation 2),0,0,0,0,0,0,user_interface,1
+41_aug_122,The system shall Implement a dark mode toggle switch. (Variation 3),0,0,0,0,0,0,user_interface,1
+42,Calculate the Fibonacci sequence up to 100.,0,0,0,0,0,0,trivial,0
+42_aug_123,Ensure that Calculate the Fibonacci sequence up to 100. (Variation 1),0,0,0,0,0,0,trivial,1
+42_aug_124,It is required to Calculate the Fibonacci sequence up to 100. (Variation 2),0,0,0,0,0,0,trivial,1
+42_aug_125,The system shall Calculate the Fibonacci sequence up to 100. (Variation 3),0,0,0,0,0,0,trivial,1
+43,Upload CSV to import contacts.,0,0,0,1,0,1,file_upload,0
+43_aug_126,Ensure that Upload CSV to import contacts. (Variation 1),0,0,0,1,0,1,file_upload,1
+43_aug_127,It is required to Upload CSV to import contacts. (Variation 2),0,0,0,1,0,1,file_upload,1
+43_aug_128,The system shall Upload CSV to import contacts. (Variation 3),0,0,0,1,0,1,file_upload,1
+44,Format the date string to DD/MM/YYYY.,0,0,0,0,0,0,user_interface,0
+44_aug_129,Ensure that Format the date string to DD/MM/YYYY. (Variation 1),0,0,0,0,0,0,user_interface,1
+44_aug_130,It is required to Format the date string to DD/MM/YYYY. (Variation 2),0,0,0,0,0,0,user_interface,1
+44_aug_131,The system shall Format the date string to DD/MM/YYYY. (Variation 3),0,0,0,0,0,0,user_interface,1
+45,Admin tool to modify transaction 32.,1,1,0,1,1,0,admin_function,0
+45_aug_132,Ensure that Admin tool to modify transaction 32. (Variation 1),1,1,0,1,1,0,admin_function,1
+45_aug_133,It is required to Admin tool to modify transaction 32. (Variation 2),1,1,0,1,1,0,admin_function,1
+45_aug_134,The system shall Admin tool to modify transaction 32. (Variation 3),1,1,0,1,1,0,admin_function,1
+46,API to fetch details for item 8.,0,1,0,0,0,1,api_endpoint,0
+46_aug_135,Ensure that API to fetch details for item 8. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+46_aug_136,It is required to API to fetch details for item 8. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+46_aug_137,The system shall API to fetch details for item 8. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+47,Admin tool to modify transaction 33.,1,1,0,1,1,0,admin_function,0
+47_aug_138,Ensure that Admin tool to modify transaction 33. (Variation 1),1,1,0,1,1,0,admin_function,1
+47_aug_139,It is required to Admin tool to modify transaction 33. (Variation 2),1,1,0,1,1,0,admin_function,1
+47_aug_140,The system shall Admin tool to modify transaction 33. (Variation 3),1,1,0,1,1,0,admin_function,1
+48,Admin tool to modify transaction 16.,1,1,0,1,1,0,admin_function,0
+48_aug_141,Ensure that Admin tool to modify transaction 16. (Variation 1),1,1,0,1,1,0,admin_function,1
+48_aug_142,It is required to Admin tool to modify transaction 16. (Variation 2),1,1,0,1,1,0,admin_function,1
+48_aug_143,The system shall Admin tool to modify transaction 16. (Variation 3),1,1,0,1,1,0,admin_function,1
+49,Critical system 34 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+49_aug_144,Ensure that Critical system 34 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+49_aug_145,It is required to Critical system 34 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+49_aug_146,The system shall Critical system 34 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+50,Update the color scheme for component 11.,0,0,0,0,0,0,user_interface,0
+50_aug_147,Ensure that Update the color scheme for component 11. (Variation 1),0,0,0,0,0,0,user_interface,1
+50_aug_148,It is required to Update the color scheme for component 11. (Variation 2),0,0,0,0,0,0,user_interface,1
+50_aug_149,The system shall Update the color scheme for component 11. (Variation 3),0,0,0,0,0,0,user_interface,1
+51,Admin tool to modify transaction 34.,1,1,0,1,1,0,admin_function,0
+51_aug_150,Ensure that Admin tool to modify transaction 34. (Variation 1),1,1,0,1,1,0,admin_function,1
+51_aug_151,It is required to Admin tool to modify transaction 34. (Variation 2),1,1,0,1,1,0,admin_function,1
+51_aug_152,The system shall Admin tool to modify transaction 34. (Variation 3),1,1,0,1,1,0,admin_function,1
+52,API to fetch details for item 25.,0,1,0,0,0,1,api_endpoint,0
+52_aug_153,Ensure that API to fetch details for item 25. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+52_aug_154,It is required to API to fetch details for item 25. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+52_aug_155,The system shall API to fetch details for item 25. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+53,Admin tool to modify transaction 15.,1,1,0,1,1,0,admin_function,0
+53_aug_156,Ensure that Admin tool to modify transaction 15. (Variation 1),1,1,0,1,1,0,admin_function,1
+53_aug_157,It is required to Admin tool to modify transaction 15. (Variation 2),1,1,0,1,1,0,admin_function,1
+53_aug_158,The system shall Admin tool to modify transaction 15. (Variation 3),1,1,0,1,1,0,admin_function,1
+54,Delete account feature.,1,1,0,0,1,0,user_interface,0
+54_aug_159,Ensure that Delete account feature. (Variation 1),1,1,0,0,1,0,user_interface,1
+54_aug_160,It is required to Delete account feature. (Variation 2),1,1,0,0,1,0,user_interface,1
+54_aug_161,The system shall Delete account feature. (Variation 3),1,1,0,0,1,0,user_interface,1
+55,Dashboard to view other users' private messages (Designated Support Staff).,1,1,1,0,1,0,admin_function,0
+55_aug_162,Ensure that Dashboard to view other users' private messages (Designated Support Staff). (Variation 1),1,1,1,0,1,0,admin_function,1
+55_aug_163,It is required to Dashboard to view other users' private messages (Designated Support Staff). (Variation 2),1,1,1,0,1,0,admin_function,1
+55_aug_164,The system shall Dashboard to view other users' private messages (Designated Support Staff). (Variation 3),1,1,1,0,1,0,admin_function,1
+56,Fetch user profile details by ID.,0,1,0,0,0,0,api_endpoint,0
+56_aug_165,Ensure that Fetch user profile details by ID. (Variation 1),0,1,0,0,0,0,api_endpoint,1
+56_aug_166,It is required to Fetch user profile details by ID. (Variation 2),0,1,0,0,0,0,api_endpoint,1
+56_aug_167,The system shall Fetch user profile details by ID. (Variation 3),0,1,0,0,0,0,api_endpoint,1
+57,Update the color scheme for component 28.,0,0,0,0,0,0,user_interface,0
+57_aug_168,Ensure that Update the color scheme for component 28. (Variation 1),0,0,0,0,0,0,user_interface,1
+57_aug_169,It is required to Update the color scheme for component 28. (Variation 2),0,0,0,0,0,0,user_interface,1
+57_aug_170,The system shall Update the color scheme for component 28. (Variation 3),0,0,0,0,0,0,user_interface,1
+58,Admin tool to modify transaction 29.,1,1,0,1,1,0,admin_function,0
+58_aug_171,Ensure that Admin tool to modify transaction 29. (Variation 1),1,1,0,1,1,0,admin_function,1
+58_aug_172,It is required to Admin tool to modify transaction 29. (Variation 2),1,1,0,1,1,0,admin_function,1
+58_aug_173,The system shall Admin tool to modify transaction 29. (Variation 3),1,1,0,1,1,0,admin_function,1
+59,Update the color scheme for component 9.,0,0,0,0,0,0,user_interface,0
+59_aug_174,Ensure that Update the color scheme for component 9. (Variation 1),0,0,0,0,0,0,user_interface,1
+59_aug_175,It is required to Update the color scheme for component 9. (Variation 2),0,0,0,0,0,0,user_interface,1
+59_aug_176,The system shall Update the color scheme for component 9. (Variation 3),0,0,0,0,0,0,user_interface,1
+60,Admin tool to modify transaction 3.,1,1,0,1,1,0,admin_function,0
+60_aug_177,Ensure that Admin tool to modify transaction 3. (Variation 1),1,1,0,1,1,0,admin_function,1
+60_aug_178,It is required to Admin tool to modify transaction 3. (Variation 2),1,1,0,1,1,0,admin_function,1
+60_aug_179,The system shall Admin tool to modify transaction 3. (Variation 3),1,1,0,1,1,0,admin_function,1
+61,Admin tool to modify transaction 6.,1,1,0,1,1,0,admin_function,0
+61_aug_180,Ensure that Admin tool to modify transaction 6. (Variation 1),1,1,0,1,1,0,admin_function,1
+61_aug_181,It is required to Admin tool to modify transaction 6. (Variation 2),1,1,0,1,1,0,admin_function,1
+61_aug_182,The system shall Admin tool to modify transaction 6. (Variation 3),1,1,0,1,1,0,admin_function,1
+62,Admin tool to modify transaction 37.,1,1,0,1,1,0,admin_function,0
+62_aug_183,Ensure that Admin tool to modify transaction 37. (Variation 1),1,1,0,1,1,0,admin_function,1
+62_aug_184,It is required to Admin tool to modify transaction 37. (Variation 2),1,1,0,1,1,0,admin_function,1
+62_aug_185,The system shall Admin tool to modify transaction 37. (Variation 3),1,1,0,1,1,0,admin_function,1
+63,Render a blue submit button on the form.,0,0,0,0,0,0,user_interface,0
+63_aug_186,Ensure that Render a blue submit button on the form. (Variation 1),0,0,0,0,0,0,user_interface,1
+63_aug_187,It is required to Render a blue submit button on the form. (Variation 2),0,0,0,0,0,0,user_interface,1
+63_aug_188,The system shall Render a blue submit button on the form. (Variation 3),0,0,0,0,0,0,user_interface,1
+64,API to fetch details for item 9.,0,1,0,0,0,1,api_endpoint,0
+64_aug_189,Ensure that API to fetch details for item 9. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+64_aug_190,It is required to API to fetch details for item 9. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+64_aug_191,The system shall API to fetch details for item 9. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+65,Store user delivery address in the database.,0,0,1,1,0,0,data_storage,0
+65_aug_192,Ensure that Store user delivery address in the database. (Variation 1),0,0,1,1,0,0,data_storage,1
+65_aug_193,It is required to Store user delivery address in the database. (Variation 2),0,0,1,1,0,0,data_storage,1
+65_aug_194,The system shall Store user delivery address in the database. (Variation 3),0,0,1,1,0,0,data_storage,1
+66,Critical system 17 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+66_aug_195,Ensure that Critical system 17 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+66_aug_196,It is required to Critical system 17 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+66_aug_197,The system shall Critical system 17 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+67,Function to change user password.,1,0,1,0,1,0,authentication,0
+67_aug_198,Ensure that Function to change user password. (Variation 1),1,0,1,0,1,0,authentication,1
+67_aug_199,It is required to Function to change user password. (Variation 2),1,0,1,0,1,0,authentication,1
+67_aug_200,The system shall Function to change user password. (Variation 3),1,0,1,0,1,0,authentication,1
+68,Critical system 30 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+68_aug_201,Ensure that Critical system 30 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+68_aug_202,It is required to Critical system 30 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+68_aug_203,The system shall Critical system 30 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+69,Admin tool to modify transaction 10.,1,1,0,1,1,0,admin_function,0
+69_aug_204,Ensure that Admin tool to modify transaction 10. (Variation 1),1,1,0,1,1,0,admin_function,1
+69_aug_205,It is required to Admin tool to modify transaction 10. (Variation 2),1,1,0,1,1,0,admin_function,1
+69_aug_206,The system shall Admin tool to modify transaction 10. (Variation 3),1,1,0,1,1,0,admin_function,1
+70,Add a placeholder text to the search input.,0,0,0,0,0,0,user_interface,0
+70_aug_207,Ensure that Add a placeholder text to the search input. (Variation 1),0,0,0,0,0,0,user_interface,1
+70_aug_208,It is required to Add a placeholder text to the search input. (Variation 2),0,0,0,0,0,0,user_interface,1
+70_aug_209,The system shall Add a placeholder text to the search input. (Variation 3),0,0,0,0,0,0,user_interface,1
+71,Critical system 35 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+71_aug_210,Ensure that Critical system 35 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+71_aug_211,It is required to Critical system 35 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+71_aug_212,The system shall Critical system 35 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+72,Critical system 19 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+72_aug_213,Ensure that Critical system 19 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+72_aug_214,It is required to Critical system 19 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+72_aug_215,The system shall Critical system 19 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+73,Admin tool to modify transaction 23.,1,1,0,1,1,0,admin_function,0
+73_aug_216,Ensure that Admin tool to modify transaction 23. (Variation 1),1,1,0,1,1,0,admin_function,1
+73_aug_217,It is required to Admin tool to modify transaction 23. (Variation 2),1,1,0,1,1,0,admin_function,1
+73_aug_218,The system shall Admin tool to modify transaction 23. (Variation 3),1,1,0,1,1,0,admin_function,1
+74,Critical system 6 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+74_aug_219,Ensure that Critical system 6 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+74_aug_220,It is required to Critical system 6 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+74_aug_221,The system shall Critical system 6 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+75,API to fetch details for item 2.,0,1,0,0,0,1,api_endpoint,0
+75_aug_222,Ensure that API to fetch details for item 2. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+75_aug_223,It is required to API to fetch details for item 2. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+75_aug_224,The system shall API to fetch details for item 2. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+76,Admin tool to modify transaction 14.,1,1,0,1,1,0,admin_function,0
+76_aug_225,Ensure that Admin tool to modify transaction 14. (Variation 1),1,1,0,1,1,0,admin_function,1
+76_aug_226,It is required to Admin tool to modify transaction 14. (Variation 2),1,1,0,1,1,0,admin_function,1
+76_aug_227,The system shall Admin tool to modify transaction 14. (Variation 3),1,1,0,1,1,0,admin_function,1
+77,API to fetch details for item 23.,0,1,0,0,0,1,api_endpoint,0
+77_aug_228,Ensure that API to fetch details for item 23. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+77_aug_229,It is required to API to fetch details for item 23. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+77_aug_230,The system shall API to fetch details for item 23. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+78,Critical system 1 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+78_aug_231,Ensure that Critical system 1 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+78_aug_232,It is required to Critical system 1 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+78_aug_233,The system shall Critical system 1 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+79,Implement a custom crypto algorithm to store passwords.,0,0,1,0,0,0,authentication,0
+79_aug_234,Ensure that Implement a custom crypto algorithm to store passwords. (Variation 1),0,0,1,0,0,0,authentication,1
+79_aug_235,It is required to Implement a custom crypto algorithm to store passwords. (Variation 2),0,0,1,0,0,0,authentication,1
+79_aug_236,The system shall Implement a custom crypto algorithm to store passwords. (Variation 3),0,0,1,0,0,0,authentication,1
+80,Refactor the navigation bar CSS.,0,0,0,0,0,0,user_interface,0
+80_aug_237,Ensure that Refactor the navigation bar CSS. (Variation 1),0,0,0,0,0,0,user_interface,1
+80_aug_238,It is required to Refactor the navigation bar CSS. (Variation 2),0,0,0,0,0,0,user_interface,1
+80_aug_239,The system shall Refactor the navigation bar CSS. (Variation 3),0,0,0,0,0,0,user_interface,1
+81,Admin page to view system logs.,1,1,0,0,0,0,admin_function,0
+81_aug_240,Ensure that Admin page to view system logs. (Variation 1),1,1,0,0,0,0,admin_function,1
+81_aug_241,It is required to Admin page to view system logs. (Variation 2),1,1,0,0,0,0,admin_function,1
+81_aug_242,The system shall Admin page to view system logs. (Variation 3),1,1,0,0,0,0,admin_function,1
+82,API to fetch details for item 30.,0,1,0,0,0,1,api_endpoint,0
+82_aug_243,Ensure that API to fetch details for item 30. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+82_aug_244,It is required to API to fetch details for item 30. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+82_aug_245,The system shall API to fetch details for item 30. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+83,Critical system 31 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+83_aug_246,Ensure that Critical system 31 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+83_aug_247,It is required to Critical system 31 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+83_aug_248,The system shall Critical system 31 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+84,API to fetch details for item 1.,0,1,0,0,0,1,api_endpoint,0
+84_aug_249,Ensure that API to fetch details for item 1. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+84_aug_250,It is required to API to fetch details for item 1. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+84_aug_251,The system shall API to fetch details for item 1. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+85,API to fetch details for item 0.,0,1,0,0,0,1,api_endpoint,0
+85_aug_252,Ensure that API to fetch details for item 0. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+85_aug_253,It is required to API to fetch details for item 0. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+85_aug_254,The system shall API to fetch details for item 0. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+86,Healthcare patient management system with external API access.,1,1,1,1,1,1,integration,0
+86_aug_255,Ensure that Healthcare patient management system with external API access. (Variation 1),1,1,1,1,1,1,integration,1
+86_aug_256,It is required to Healthcare patient management system with external API access. (Variation 2),1,1,1,1,1,1,integration,1
+86_aug_257,The system shall Healthcare patient management system with external API access. (Variation 3),1,1,1,1,1,1,integration,1
+87,Admin tool to modify transaction 30.,1,1,0,1,1,0,admin_function,0
+87_aug_258,Ensure that Admin tool to modify transaction 30. (Variation 1),1,1,0,1,1,0,admin_function,1
+87_aug_259,It is required to Admin tool to modify transaction 30. (Variation 2),1,1,0,1,1,0,admin_function,1
+87_aug_260,The system shall Admin tool to modify transaction 30. (Variation 3),1,1,0,1,1,0,admin_function,1
+88,Build a public endpoint that accepts SQL queries in JSON to return specific table data.,1,1,1,1,1,1,api_endpoint,0
+88_aug_261,Ensure that Build a public endpoint that accepts SQL queries in JSON to return specific table data. (Variation 1),1,1,1,1,1,1,api_endpoint,1
+88_aug_262,It is required to Build a public endpoint that accepts SQL queries in JSON to return specific table data. (Variation 2),1,1,1,1,1,1,api_endpoint,1
+88_aug_263,The system shall Build a public endpoint that accepts SQL queries in JSON to return specific table data. (Variation 3),1,1,1,1,1,1,api_endpoint,1
+89,Scroll to top when the button is clicked.,0,0,0,0,0,0,user_interface,0
+89_aug_264,Ensure that Scroll to top when the button is clicked. (Variation 1),0,0,0,0,0,0,user_interface,1
+89_aug_265,It is required to Scroll to top when the button is clicked. (Variation 2),0,0,0,0,0,0,user_interface,1
+89_aug_266,The system shall Scroll to top when the button is clicked. (Variation 3),0,0,0,0,0,0,user_interface,1
+90,API to fetch details for item 33.,0,1,0,0,0,1,api_endpoint,0
+90_aug_267,Ensure that API to fetch details for item 33. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+90_aug_268,It is required to API to fetch details for item 33. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+90_aug_269,The system shall API to fetch details for item 33. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+91,Update the color scheme for component 4.,0,0,0,0,0,0,user_interface,0
+91_aug_270,Ensure that Update the color scheme for component 4. (Variation 1),0,0,0,0,0,0,user_interface,1
+91_aug_271,It is required to Update the color scheme for component 4. (Variation 2),0,0,0,0,0,0,user_interface,1
+91_aug_272,The system shall Update the color scheme for component 4. (Variation 3),0,0,0,0,0,0,user_interface,1
+92,Critical system 33 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+92_aug_273,Ensure that Critical system 33 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+92_aug_274,It is required to Critical system 33 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+92_aug_275,The system shall Critical system 33 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+93,Cache user session data in Redis.,0,0,1,0,0,0,data_storage,0
+93_aug_276,Ensure that Cache user session data in Redis. (Variation 1),0,0,1,0,0,0,data_storage,1
+93_aug_277,It is required to Cache user session data in Redis. (Variation 2),0,0,1,0,0,0,data_storage,1
+93_aug_278,The system shall Cache user session data in Redis. (Variation 3),0,0,1,0,0,0,data_storage,1
+94,Admin tool to modify transaction 36.,1,1,0,1,1,0,admin_function,0
+94_aug_279,Ensure that Admin tool to modify transaction 36. (Variation 1),1,1,0,1,1,0,admin_function,1
+94_aug_280,It is required to Admin tool to modify transaction 36. (Variation 2),1,1,0,1,1,0,admin_function,1
+94_aug_281,The system shall Admin tool to modify transaction 36. (Variation 3),1,1,0,1,1,0,admin_function,1
+95,Integration with Stripe to process a charge.,0,0,1,0,1,0,payment,0
+95_aug_282,Ensure that Integration with Stripe to process a charge. (Variation 1),0,0,1,0,1,0,payment,1
+95_aug_283,It is required to Integration with Stripe to process a charge. (Variation 2),0,0,1,0,1,0,payment,1
+95_aug_284,The system shall Integration with Stripe to process a charge. (Variation 3),0,0,1,0,1,0,payment,1
+96,Update the color scheme for component 23.,0,0,0,0,0,0,user_interface,0
+96_aug_285,Ensure that Update the color scheme for component 23. (Variation 1),0,0,0,0,0,0,user_interface,1
+96_aug_286,It is required to Update the color scheme for component 23. (Variation 2),0,0,0,0,0,0,user_interface,1
+96_aug_287,The system shall Update the color scheme for component 23. (Variation 3),0,0,0,0,0,0,user_interface,1
+97,API to fetch details for item 4.,0,1,0,0,0,1,api_endpoint,0
+97_aug_288,Ensure that API to fetch details for item 4. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+97_aug_289,It is required to API to fetch details for item 4. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+97_aug_290,The system shall API to fetch details for item 4. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+98,Critical system 25 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+98_aug_291,Ensure that Critical system 25 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+98_aug_292,It is required to Critical system 25 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+98_aug_293,The system shall Critical system 25 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+99,Critical system 3 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+99_aug_294,Ensure that Critical system 3 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+99_aug_295,It is required to Critical system 3 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+99_aug_296,The system shall Critical system 3 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+100,Allow users to upload a profile picture.,0,1,0,1,0,0,file_upload,0
+100_aug_297,Ensure that Allow users to upload a profile picture. (Variation 1),0,1,0,1,0,0,file_upload,1
+100_aug_298,It is required to Allow users to upload a profile picture. (Variation 2),0,1,0,1,0,0,file_upload,1
+100_aug_299,The system shall Allow users to upload a profile picture. (Variation 3),0,1,0,1,0,0,file_upload,1
+101,Admin tool to modify transaction 25.,1,1,0,1,1,0,admin_function,0
+101_aug_300,Ensure that Admin tool to modify transaction 25. (Variation 1),1,1,0,1,1,0,admin_function,1
+101_aug_301,It is required to Admin tool to modify transaction 25. (Variation 2),1,1,0,1,1,0,admin_function,1
+101_aug_302,The system shall Admin tool to modify transaction 25. (Variation 3),1,1,0,1,1,0,admin_function,1
+102,Critical system 10 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+102_aug_303,Ensure that Critical system 10 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+102_aug_304,It is required to Critical system 10 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+102_aug_305,The system shall Critical system 10 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+103,Allow users to upload executable files to the server root via FTP.,1,1,0,1,1,1,file_upload,0
+103_aug_306,Ensure that Allow users to upload executable files to the server root via FTP. (Variation 1),1,1,0,1,1,1,file_upload,1
+103_aug_307,It is required to Allow users to upload executable files to the server root via FTP. (Variation 2),1,1,0,1,1,1,file_upload,1
+103_aug_308,The system shall Allow users to upload executable files to the server root via FTP. (Variation 3),1,1,0,1,1,1,file_upload,1
+104,API to fetch details for item 19.,0,1,0,0,0,1,api_endpoint,0
+104_aug_309,Ensure that API to fetch details for item 19. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+104_aug_310,It is required to API to fetch details for item 19. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+104_aug_311,The system shall API to fetch details for item 19. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+105,Update the color scheme for component 22.,0,0,0,0,0,0,user_interface,0
+105_aug_312,Ensure that Update the color scheme for component 22. (Variation 1),0,0,0,0,0,0,user_interface,1
+105_aug_313,It is required to Update the color scheme for component 22. (Variation 2),0,0,0,0,0,0,user_interface,1
+105_aug_314,The system shall Update the color scheme for component 22. (Variation 3),0,0,0,0,0,0,user_interface,1
+106,Voter registration database with public search.,1,1,1,1,1,1,data_storage,0
+106_aug_315,Ensure that Voter registration database with public search. (Variation 1),1,1,1,1,1,1,data_storage,1
+106_aug_316,It is required to Voter registration database with public search. (Variation 2),1,1,1,1,1,1,data_storage,1
+106_aug_317,The system shall Voter registration database with public search. (Variation 3),1,1,1,1,1,1,data_storage,1
+107,API to fetch details for item 28.,0,1,0,0,0,1,api_endpoint,0
+107_aug_318,Ensure that API to fetch details for item 28. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+107_aug_319,It is required to API to fetch details for item 28. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+107_aug_320,The system shall API to fetch details for item 28. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+108,Allow comments on blog posts.,0,0,0,1,0,1,user_interface,0
+108_aug_321,Ensure that Allow comments on blog posts. (Variation 1),0,0,0,1,0,1,user_interface,1
+108_aug_322,It is required to Allow comments on blog posts. (Variation 2),0,0,0,1,0,1,user_interface,1
+108_aug_323,The system shall Allow comments on blog posts. (Variation 3),0,0,0,1,0,1,user_interface,1
+109,API to fetch details for item 29.,0,1,0,0,0,1,api_endpoint,0
+109_aug_324,Ensure that API to fetch details for item 29. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+109_aug_325,It is required to API to fetch details for item 29. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+109_aug_326,The system shall API to fetch details for item 29. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+110,Admin tool to modify transaction 4.,1,1,0,1,1,0,admin_function,0
+110_aug_327,Ensure that Admin tool to modify transaction 4. (Variation 1),1,1,0,1,1,0,admin_function,1
+110_aug_328,It is required to Admin tool to modify transaction 4. (Variation 2),1,1,0,1,1,0,admin_function,1
+110_aug_329,The system shall Admin tool to modify transaction 4. (Variation 3),1,1,0,1,1,0,admin_function,1
+111,Admin tool to modify transaction 11.,1,1,0,1,1,0,admin_function,0
+111_aug_330,Ensure that Admin tool to modify transaction 11. (Variation 1),1,1,0,1,1,0,admin_function,1
+111_aug_331,It is required to Admin tool to modify transaction 11. (Variation 2),1,1,0,1,1,0,admin_function,1
+111_aug_332,The system shall Admin tool to modify transaction 11. (Variation 3),1,1,0,1,1,0,admin_function,1
+112,Root level system configuration API.,1,1,1,1,1,1,admin_function,0
+112_aug_333,Ensure that Root level system configuration API. (Variation 1),1,1,1,1,1,1,admin_function,1
+112_aug_334,It is required to Root level system configuration API. (Variation 2),1,1,1,1,1,1,admin_function,1
+112_aug_335,The system shall Root level system configuration API. (Variation 3),1,1,1,1,1,1,admin_function,1
+113,Update the color scheme for component 5.,0,0,0,0,0,0,user_interface,0
+113_aug_336,Ensure that Update the color scheme for component 5. (Variation 1),0,0,0,0,0,0,user_interface,1
+113_aug_337,It is required to Update the color scheme for component 5. (Variation 2),0,0,0,0,0,0,user_interface,1
+113_aug_338,The system shall Update the color scheme for component 5. (Variation 3),0,0,0,0,0,0,user_interface,1
+114,Critical system 18 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+114_aug_339,Ensure that Critical system 18 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+114_aug_340,It is required to Critical system 18 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+114_aug_341,The system shall Critical system 18 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+115,API to fetch details for item 15.,0,1,0,0,0,1,api_endpoint,0
+115_aug_342,Ensure that API to fetch details for item 15. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+115_aug_343,It is required to API to fetch details for item 15. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+115_aug_344,The system shall API to fetch details for item 15. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+116,Admin tool to modify transaction 39.,1,1,0,1,1,0,admin_function,0
+116_aug_345,Ensure that Admin tool to modify transaction 39. (Variation 1),1,1,0,1,1,0,admin_function,1
+116_aug_346,It is required to Admin tool to modify transaction 39. (Variation 2),1,1,0,1,1,0,admin_function,1
+116_aug_347,The system shall Admin tool to modify transaction 39. (Variation 3),1,1,0,1,1,0,admin_function,1
+117,Background job to send weekly email newsletters.,0,0,0,0,0,1,notification,0
+117_aug_348,Ensure that Background job to send weekly email newsletters. (Variation 1),0,0,0,0,0,1,notification,1
+117_aug_349,It is required to Background job to send weekly email newsletters. (Variation 2),0,0,0,0,0,1,notification,1
+117_aug_350,The system shall Background job to send weekly email newsletters. (Variation 3),0,0,0,0,0,1,notification,1
+118,Create a unit test for the sum function.,0,0,0,0,0,0,trivial,0
+118_aug_351,Ensure that Create a unit test for the sum function. (Variation 1),0,0,0,0,0,0,trivial,1
+118_aug_352,It is required to Create a unit test for the sum function. (Variation 2),0,0,0,0,0,0,trivial,1
+118_aug_353,The system shall Create a unit test for the sum function. (Variation 3),0,0,0,0,0,0,trivial,1
+119,Update the color scheme for component 17.,0,0,0,0,0,0,user_interface,0
+119_aug_354,Ensure that Update the color scheme for component 17. (Variation 1),0,0,0,0,0,0,user_interface,1
+119_aug_355,It is required to Update the color scheme for component 17. (Variation 2),0,0,0,0,0,0,user_interface,1
+119_aug_356,The system shall Update the color scheme for component 17. (Variation 3),0,0,0,0,0,0,user_interface,1
+120,Create a constant for the API base URL.,0,0,0,0,0,0,trivial,0
+120_aug_357,Ensure that Create a constant for the API base URL. (Variation 1),0,0,0,0,0,0,trivial,1
+120_aug_358,It is required to Create a constant for the API base URL. (Variation 2),0,0,0,0,0,0,trivial,1
+120_aug_359,The system shall Create a constant for the API base URL. (Variation 3),0,0,0,0,0,0,trivial,1
+121,Critical system 20 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+121_aug_360,Ensure that Critical system 20 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+121_aug_361,It is required to Critical system 20 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+121_aug_362,The system shall Critical system 20 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+122,Public form to submit support tickets with attachments.,0,0,1,1,0,1,file_upload,0
+122_aug_363,Ensure that Public form to submit support tickets with attachments. (Variation 1),0,0,1,1,0,1,file_upload,1
+122_aug_364,It is required to Public form to submit support tickets with attachments. (Variation 2),0,0,1,1,0,1,file_upload,1
+122_aug_365,The system shall Public form to submit support tickets with attachments. (Variation 3),0,0,1,1,0,1,file_upload,1
+123,Check if the list is empty before rendering.,0,0,0,0,0,0,trivial,0
+123_aug_366,Ensure that Check if the list is empty before rendering. (Variation 1),0,0,0,0,0,0,trivial,1
+123_aug_367,It is required to Check if the list is empty before rendering. (Variation 2),0,0,0,0,0,0,trivial,1
+123_aug_368,The system shall Check if the list is empty before rendering. (Variation 3),0,0,0,0,0,0,trivial,1
+124,Create a 'super admin' backdoor that accepts a master key to bypass login and download full DB.,1,1,1,1,1,1,admin_function,0
+124_aug_369,Ensure that Create a 'super admin' backdoor that accepts a master key to bypass login and download full DB. (Variation 1),1,1,1,1,1,1,admin_function,1
+124_aug_370,It is required to Create a 'super admin' backdoor that accepts a master key to bypass login and download full DB. (Variation 2),1,1,1,1,1,1,admin_function,1
+124_aug_371,The system shall Create a 'super admin' backdoor that accepts a master key to bypass login and download full DB. (Variation 3),1,1,1,1,1,1,admin_function,1
+125,Update the color scheme for component 3.,0,0,0,0,0,0,user_interface,0
+125_aug_372,Ensure that Update the color scheme for component 3. (Variation 1),0,0,0,0,0,0,user_interface,1
+125_aug_373,It is required to Update the color scheme for component 3. (Variation 2),0,0,0,0,0,0,user_interface,1
+125_aug_374,The system shall Update the color scheme for component 3. (Variation 3),0,0,0,0,0,0,user_interface,1
+126,API to fetch details for item 31.,0,1,0,0,0,1,api_endpoint,0
+126_aug_375,Ensure that API to fetch details for item 31. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+126_aug_376,It is required to API to fetch details for item 31. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+126_aug_377,The system shall API to fetch details for item 31. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+127,API to retrieve public config.,0,0,0,0,0,1,api_endpoint,0
+127_aug_378,Ensure that API to retrieve public config. (Variation 1),0,0,0,0,0,1,api_endpoint,1
+127_aug_379,It is required to API to retrieve public config. (Variation 2),0,0,0,0,0,1,api_endpoint,1
+127_aug_380,The system shall API to retrieve public config. (Variation 3),0,0,0,0,0,1,api_endpoint,1
+128,Internal dashboard for sales stats.,1,1,0,0,0,0,reporting,0
+128_aug_381,Ensure that Internal dashboard for sales stats. (Variation 1),1,1,0,0,0,0,reporting,1
+128_aug_382,It is required to Internal dashboard for sales stats. (Variation 2),1,1,0,0,0,0,reporting,1
+128_aug_383,The system shall Internal dashboard for sales stats. (Variation 3),1,1,0,0,0,0,reporting,1
+129,Critical system 28 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+129_aug_384,Ensure that Critical system 28 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+129_aug_385,It is required to Critical system 28 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+129_aug_386,The system shall Critical system 28 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+130,Update the color scheme for component 7.,0,0,0,0,0,0,user_interface,0
+130_aug_387,Ensure that Update the color scheme for component 7. (Variation 1),0,0,0,0,0,0,user_interface,1
+130_aug_388,It is required to Update the color scheme for component 7. (Variation 2),0,0,0,0,0,0,user_interface,1
+130_aug_389,The system shall Update the color scheme for component 7. (Variation 3),0,0,0,0,0,0,user_interface,1
+131,Admin tool to modify transaction 7.,1,1,0,1,1,0,admin_function,0
+131_aug_390,Ensure that Admin tool to modify transaction 7. (Variation 1),1,1,0,1,1,0,admin_function,1
+131_aug_391,It is required to Admin tool to modify transaction 7. (Variation 2),1,1,0,1,1,0,admin_function,1
+131_aug_392,The system shall Admin tool to modify transaction 7. (Variation 3),1,1,0,1,1,0,admin_function,1
+132,Admin tool to modify transaction 0.,1,1,0,1,1,0,admin_function,0
+132_aug_393,Ensure that Admin tool to modify transaction 0. (Variation 1),1,1,0,1,1,0,admin_function,1
+132_aug_394,It is required to Admin tool to modify transaction 0. (Variation 2),1,1,0,1,1,0,admin_function,1
+132_aug_395,The system shall Admin tool to modify transaction 0. (Variation 3),1,1,0,1,1,0,admin_function,1
+133,Update the color scheme for component 21.,0,0,0,0,0,0,user_interface,0
+133_aug_396,Ensure that Update the color scheme for component 21. (Variation 1),0,0,0,0,0,0,user_interface,1
+133_aug_397,It is required to Update the color scheme for component 21. (Variation 2),0,0,0,0,0,0,user_interface,1
+133_aug_398,The system shall Update the color scheme for component 21. (Variation 3),0,0,0,0,0,0,user_interface,1
+134,Admin tool to modify transaction 2.,1,1,0,1,1,0,admin_function,0
+134_aug_399,Ensure that Admin tool to modify transaction 2. (Variation 1),1,1,0,1,1,0,admin_function,1
+134_aug_400,It is required to Admin tool to modify transaction 2. (Variation 2),1,1,0,1,1,0,admin_function,1
+134_aug_401,The system shall Admin tool to modify transaction 2. (Variation 3),1,1,0,1,1,0,admin_function,1
+135,API to verify credit card which stores the CVV and full number in logs.,1,1,1,1,1,1,payment,0
+135_aug_402,Ensure that API to verify credit card which stores the CVV and full number in logs. (Variation 1),1,1,1,1,1,1,payment,1
+135_aug_403,It is required to API to verify credit card which stores the CVV and full number in logs. (Variation 2),1,1,1,1,1,1,payment,1
+135_aug_404,The system shall API to verify credit card which stores the CVV and full number in logs. (Variation 3),1,1,1,1,1,1,payment,1
+136,Admin tool to modify transaction 31.,1,1,0,1,1,0,admin_function,0
+136_aug_405,Ensure that Admin tool to modify transaction 31. (Variation 1),1,1,0,1,1,0,admin_function,1
+136_aug_406,It is required to Admin tool to modify transaction 31. (Variation 2),1,1,0,1,1,0,admin_function,1
+136_aug_407,The system shall Admin tool to modify transaction 31. (Variation 3),1,1,0,1,1,0,admin_function,1
+137,Critical system 14 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+137_aug_408,Ensure that Critical system 14 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+137_aug_409,It is required to Critical system 14 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+137_aug_410,The system shall Critical system 14 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+138,Update the color scheme for component 15.,0,0,0,0,0,0,user_interface,0
+138_aug_411,Ensure that Update the color scheme for component 15. (Variation 1),0,0,0,0,0,0,user_interface,1
+138_aug_412,It is required to Update the color scheme for component 15. (Variation 2),0,0,0,0,0,0,user_interface,1
+138_aug_413,The system shall Update the color scheme for component 15. (Variation 3),0,0,0,0,0,0,user_interface,1
+139,Create a function to convert Celsius to Fahrenheit.,0,0,0,0,0,0,trivial,0
+139_aug_414,Ensure that Create a function to convert Celsius to Fahrenheit. (Variation 1),0,0,0,0,0,0,trivial,1
+139_aug_415,It is required to Create a function to convert Celsius to Fahrenheit. (Variation 2),0,0,0,0,0,0,trivial,1
+139_aug_416,The system shall Create a function to convert Celsius to Fahrenheit. (Variation 3),0,0,0,0,0,0,trivial,1
+140,Critical system 16 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+140_aug_417,Ensure that Critical system 16 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+140_aug_418,It is required to Critical system 16 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+140_aug_419,The system shall Critical system 16 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+141,Critical system 21 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+141_aug_420,Ensure that Critical system 21 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+141_aug_421,It is required to Critical system 21 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+141_aug_422,The system shall Critical system 21 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+142,Update the color scheme for component 18.,0,0,0,0,0,0,user_interface,0
+142_aug_423,Ensure that Update the color scheme for component 18. (Variation 1),0,0,0,0,0,0,user_interface,1
+142_aug_424,It is required to Update the color scheme for component 18. (Variation 2),0,0,0,0,0,0,user_interface,1
+142_aug_425,The system shall Update the color scheme for component 18. (Variation 3),0,0,0,0,0,0,user_interface,1
+143,Critical system 4 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+143_aug_426,Ensure that Critical system 4 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+143_aug_427,It is required to Critical system 4 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+143_aug_428,The system shall Critical system 4 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+144,API to fetch details for item 20.,0,1,0,0,0,1,api_endpoint,0
+144_aug_429,Ensure that API to fetch details for item 20. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+144_aug_430,It is required to API to fetch details for item 20. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+144_aug_431,The system shall API to fetch details for item 20. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+145,Critical system 9 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+145_aug_432,Ensure that Critical system 9 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+145_aug_433,It is required to Critical system 9 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+145_aug_434,The system shall Critical system 9 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+146,Update the color scheme for component 20.,0,0,0,0,0,0,user_interface,0
+146_aug_435,Ensure that Update the color scheme for component 20. (Variation 1),0,0,0,0,0,0,user_interface,1
+146_aug_436,It is required to Update the color scheme for component 20. (Variation 2),0,0,0,0,0,0,user_interface,1
+146_aug_437,The system shall Update the color scheme for component 20. (Variation 3),0,0,0,0,0,0,user_interface,1
+147,Critical system 12 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+147_aug_438,Ensure that Critical system 12 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+147_aug_439,It is required to Critical system 12 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+147_aug_440,The system shall Critical system 12 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+148,API to fetch details for item 26.,0,1,0,0,0,1,api_endpoint,0
+148_aug_441,Ensure that API to fetch details for item 26. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+148_aug_442,It is required to API to fetch details for item 26. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+148_aug_443,The system shall API to fetch details for item 26. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+149,API to fetch details for item 18.,0,1,0,0,0,1,api_endpoint,0
+149_aug_444,Ensure that API to fetch details for item 18. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+149_aug_445,It is required to API to fetch details for item 18. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+149_aug_446,The system shall API to fetch details for item 18. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+150,Critical system 0 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+150_aug_447,Ensure that Critical system 0 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+150_aug_448,It is required to Critical system 0 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+150_aug_449,The system shall Critical system 0 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+151,Update the color scheme for component 14.,0,0,0,0,0,0,user_interface,0
+151_aug_450,Ensure that Update the color scheme for component 14. (Variation 1),0,0,0,0,0,0,user_interface,1
+151_aug_451,It is required to Update the color scheme for component 14. (Variation 2),0,0,0,0,0,0,user_interface,1
+151_aug_452,The system shall Update the color scheme for component 14. (Variation 3),0,0,0,0,0,0,user_interface,1
+152,API to fetch details for item 7.,0,1,0,0,0,1,api_endpoint,0
+152_aug_453,Ensure that API to fetch details for item 7. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+152_aug_454,It is required to API to fetch details for item 7. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+152_aug_455,The system shall API to fetch details for item 7. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+153,Save credit card token.,0,0,1,0,1,0,payment,0
+153_aug_456,Ensure that Save credit card token. (Variation 1),0,0,1,0,1,0,payment,1
+153_aug_457,It is required to Save credit card token. (Variation 2),0,0,1,0,1,0,payment,1
+153_aug_458,The system shall Save credit card token. (Variation 3),0,0,1,0,1,0,payment,1
+154,Save API keys in potential plain text.,0,0,1,0,1,0,data_storage,0
+154_aug_459,Ensure that Save API keys in potential plain text. (Variation 1),0,0,1,0,1,0,data_storage,1
+154_aug_460,It is required to Save API keys in potential plain text. (Variation 2),0,0,1,0,1,0,data_storage,1
+154_aug_461,The system shall Save API keys in potential plain text. (Variation 3),0,0,1,0,1,0,data_storage,1
+155,Full payment processing module handling credit cards and bank transfers.,1,1,1,1,1,1,payment,0
+155_aug_462,Ensure that Full payment processing module handling credit cards and bank transfers. (Variation 1),1,1,1,1,1,1,payment,1
+155_aug_463,It is required to Full payment processing module handling credit cards and bank transfers. (Variation 2),1,1,1,1,1,1,payment,1
+155_aug_464,The system shall Full payment processing module handling credit cards and bank transfers. (Variation 3),1,1,1,1,1,1,payment,1
+156,Admin tool to modify transaction 22.,1,1,0,1,1,0,admin_function,0
+156_aug_465,Ensure that Admin tool to modify transaction 22. (Variation 1),1,1,0,1,1,0,admin_function,1
+156_aug_466,It is required to Admin tool to modify transaction 22. (Variation 2),1,1,0,1,1,0,admin_function,1
+156_aug_467,The system shall Admin tool to modify transaction 22. (Variation 3),1,1,0,1,1,0,admin_function,1
+157,Display list of past orders.,1,1,0,0,0,0,reporting,0
+157_aug_468,Ensure that Display list of past orders. (Variation 1),1,1,0,0,0,0,reporting,1
+157_aug_469,It is required to Display list of past orders. (Variation 2),1,1,0,0,0,0,reporting,1
+157_aug_470,The system shall Display list of past orders. (Variation 3),1,1,0,0,0,0,reporting,1
+158,Update the color scheme for component 6.,0,0,0,0,0,0,user_interface,0
+158_aug_471,Ensure that Update the color scheme for component 6. (Variation 1),0,0,0,0,0,0,user_interface,1
+158_aug_472,It is required to Update the color scheme for component 6. (Variation 2),0,0,0,0,0,0,user_interface,1
+158_aug_473,The system shall Update the color scheme for component 6. (Variation 3),0,0,0,0,0,0,user_interface,1
+159,Critical system 27 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+159_aug_474,Ensure that Critical system 27 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+159_aug_475,It is required to Critical system 27 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+159_aug_476,The system shall Critical system 27 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+160,Critical system 36 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+160_aug_477,Ensure that Critical system 36 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+160_aug_478,It is required to Critical system 36 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+160_aug_479,The system shall Critical system 36 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+161,Critical system 22 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+161_aug_480,Ensure that Critical system 22 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+161_aug_481,It is required to Critical system 22 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+161_aug_482,The system shall Critical system 22 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+162,Critical system 5 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+162_aug_483,Ensure that Critical system 5 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+162_aug_484,It is required to Critical system 5 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+162_aug_485,The system shall Critical system 5 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+163,Log 'Hello World' to the console on startup.,0,0,0,0,0,0,trivial,0
+163_aug_486,Ensure that Log 'Hello World' to the console on startup. (Variation 1),0,0,0,0,0,0,trivial,1
+163_aug_487,It is required to Log 'Hello World' to the console on startup. (Variation 2),0,0,0,0,0,0,trivial,1
+163_aug_488,The system shall Log 'Hello World' to the console on startup. (Variation 3),0,0,0,0,0,0,trivial,1
+164,API to execute server-side scripts.,1,1,0,1,1,0,admin_function,0
+164_aug_489,Ensure that API to execute server-side scripts. (Variation 1),1,1,0,1,1,0,admin_function,1
+164_aug_490,It is required to API to execute server-side scripts. (Variation 2),1,1,0,1,1,0,admin_function,1
+164_aug_491,The system shall API to execute server-side scripts. (Variation 3),1,1,0,1,1,0,admin_function,1
+165,Update the color scheme for component 27.,0,0,0,0,0,0,user_interface,0
+165_aug_492,Ensure that Update the color scheme for component 27. (Variation 1),0,0,0,0,0,0,user_interface,1
+165_aug_493,It is required to Update the color scheme for component 27. (Variation 2),0,0,0,0,0,0,user_interface,1
+165_aug_494,The system shall Update the color scheme for component 27. (Variation 3),0,0,0,0,0,0,user_interface,1
+166,Admin tool to modify transaction 5.,1,1,0,1,1,0,admin_function,0
+166_aug_495,Ensure that Admin tool to modify transaction 5. (Variation 1),1,1,0,1,1,0,admin_function,1
+166_aug_496,It is required to Admin tool to modify transaction 5. (Variation 2),1,1,0,1,1,0,admin_function,1
+166_aug_497,The system shall Admin tool to modify transaction 5. (Variation 3),1,1,0,1,1,0,admin_function,1
+167,Show a tooltip when hovering over the help icon.,0,0,0,0,0,0,user_interface,0
+167_aug_498,Ensure that Show a tooltip when hovering over the help icon. (Variation 1),0,0,0,0,0,0,user_interface,1
+167_aug_499,It is required to Show a tooltip when hovering over the help icon. (Variation 2),0,0,0,0,0,0,user_interface,1
+167_aug_500,The system shall Show a tooltip when hovering over the help icon. (Variation 3),0,0,0,0,0,0,user_interface,1
+168,Endpoint to serialize and deserialize arbitrary Python objects from user input.,1,1,1,1,1,1,integration,0
+168_aug_501,Ensure that Endpoint to serialize and deserialize arbitrary Python objects from user input. (Variation 1),1,1,1,1,1,1,integration,1
+168_aug_502,It is required to Endpoint to serialize and deserialize arbitrary Python objects from user input. (Variation 2),1,1,1,1,1,1,integration,1
+168_aug_503,The system shall Endpoint to serialize and deserialize arbitrary Python objects from user input. (Variation 3),1,1,1,1,1,1,integration,1
+169,Update the color scheme for component 29.,0,0,0,0,0,0,user_interface,0
+169_aug_504,Ensure that Update the color scheme for component 29. (Variation 1),0,0,0,0,0,0,user_interface,1
+169_aug_505,It is required to Update the color scheme for component 29. (Variation 2),0,0,0,0,0,0,user_interface,1
+169_aug_506,The system shall Update the color scheme for component 29. (Variation 3),0,0,0,0,0,0,user_interface,1
+170,Update the color scheme for component 16.,0,0,0,0,0,0,user_interface,0
+170_aug_507,Ensure that Update the color scheme for component 16. (Variation 1),0,0,0,0,0,0,user_interface,1
+170_aug_508,It is required to Update the color scheme for component 16. (Variation 2),0,0,0,0,0,0,user_interface,1
+170_aug_509,The system shall Update the color scheme for component 16. (Variation 3),0,0,0,0,0,0,user_interface,1
+171,Update the color scheme for component 12.,0,0,0,0,0,0,user_interface,0
+171_aug_510,Ensure that Update the color scheme for component 12. (Variation 1),0,0,0,0,0,0,user_interface,1
+171_aug_511,It is required to Update the color scheme for component 12. (Variation 2),0,0,0,0,0,0,user_interface,1
+171_aug_512,The system shall Update the color scheme for component 12. (Variation 3),0,0,0,0,0,0,user_interface,1
+172,Update the footer copyright year dynamically.,0,0,0,0,0,0,user_interface,0
+172_aug_513,Ensure that Update the footer copyright year dynamically. (Variation 1),0,0,0,0,0,0,user_interface,1
+172_aug_514,It is required to Update the footer copyright year dynamically. (Variation 2),0,0,0,0,0,0,user_interface,1
+172_aug_515,The system shall Update the footer copyright year dynamically. (Variation 3),0,0,0,0,0,0,user_interface,1
+173,Update the color scheme for component 8.,0,0,0,0,0,0,user_interface,0
+173_aug_516,Ensure that Update the color scheme for component 8. (Variation 1),0,0,0,0,0,0,user_interface,1
+173_aug_517,It is required to Update the color scheme for component 8. (Variation 2),0,0,0,0,0,0,user_interface,1
+173_aug_518,The system shall Update the color scheme for component 8. (Variation 3),0,0,0,0,0,0,user_interface,1
+174,Parse the JSON response from the weather API.,0,0,0,0,0,0,integration,0
+174_aug_519,Ensure that Parse the JSON response from the weather API. (Variation 1),0,0,0,0,0,0,integration,1
+174_aug_520,It is required to Parse the JSON response from the weather API. (Variation 2),0,0,0,0,0,0,integration,1
+174_aug_521,The system shall Parse the JSON response from the weather API. (Variation 3),0,0,0,0,0,0,integration,1
+175,API to fetch details for item 14.,0,1,0,0,0,1,api_endpoint,0
+175_aug_522,Ensure that API to fetch details for item 14. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+175_aug_523,It is required to API to fetch details for item 14. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+175_aug_524,The system shall API to fetch details for item 14. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+176,Feature to impersonate users for debugging.,1,1,0,0,1,0,admin_function,0
+176_aug_525,Ensure that Feature to impersonate users for debugging. (Variation 1),1,1,0,0,1,0,admin_function,1
+176_aug_526,It is required to Feature to impersonate users for debugging. (Variation 2),1,1,0,0,1,0,admin_function,1
+176_aug_527,The system shall Feature to impersonate users for debugging. (Variation 3),1,1,0,0,1,0,admin_function,1
+177,Display a loading spinner while fetching data.,0,0,0,0,0,0,user_interface,0
+177_aug_528,Ensure that Display a loading spinner while fetching data. (Variation 1),0,0,0,0,0,0,user_interface,1
+177_aug_529,It is required to Display a loading spinner while fetching data. (Variation 2),0,0,0,0,0,0,user_interface,1
+177_aug_530,The system shall Display a loading spinner while fetching data. (Variation 3),0,0,0,0,0,0,user_interface,1
+178,Admin tool to modify transaction 20.,1,1,0,1,1,0,admin_function,0
+178_aug_531,Ensure that Admin tool to modify transaction 20. (Variation 1),1,1,0,1,1,0,admin_function,1
+178_aug_532,It is required to Admin tool to modify transaction 20. (Variation 2),1,1,0,1,1,0,admin_function,1
+178_aug_533,The system shall Admin tool to modify transaction 20. (Variation 3),1,1,0,1,1,0,admin_function,1
+179,Save API keys for third party integrations.,1,1,1,0,1,0,data_storage,0
+179_aug_534,Ensure that Save API keys for third party integrations. (Variation 1),1,1,1,0,1,0,data_storage,1
+179_aug_535,It is required to Save API keys for third party integrations. (Variation 2),1,1,1,0,1,0,data_storage,1
+179_aug_536,The system shall Save API keys for third party integrations. (Variation 3),1,1,1,0,1,0,data_storage,1
+180,Create a login form taking email and password.,0,1,0,1,0,0,authentication,0
+180_aug_537,Ensure that Create a login form taking email and password. (Variation 1),0,1,0,1,0,0,authentication,1
+180_aug_538,It is required to Create a login form taking email and password. (Variation 2),0,1,0,1,0,0,authentication,1
+180_aug_539,The system shall Create a login form taking email and password. (Variation 3),0,1,0,1,0,0,authentication,1
+181,Admin interface to query the database directly.,1,1,1,1,0,0,admin_function,0
+181_aug_540,Ensure that Admin interface to query the database directly. (Variation 1),1,1,1,1,0,0,admin_function,1
+181_aug_541,It is required to Admin interface to query the database directly. (Variation 2),1,1,1,1,0,0,admin_function,1
+181_aug_542,The system shall Admin interface to query the database directly. (Variation 3),1,1,1,1,0,0,admin_function,1
+182,Admin tool to modify transaction 19.,1,1,0,1,1,0,admin_function,0
+182_aug_543,Ensure that Admin tool to modify transaction 19. (Variation 1),1,1,0,1,1,0,admin_function,1
+182_aug_544,It is required to Admin tool to modify transaction 19. (Variation 2),1,1,0,1,1,0,admin_function,1
+182_aug_545,The system shall Admin tool to modify transaction 19. (Variation 3),1,1,0,1,1,0,admin_function,1
+183,Create a helper function to capitalize strings.,0,0,0,0,0,0,trivial,0
+183_aug_546,Ensure that Create a helper function to capitalize strings. (Variation 1),0,0,0,0,0,0,trivial,1
+183_aug_547,It is required to Create a helper function to capitalize strings. (Variation 2),0,0,0,0,0,0,trivial,1
+183_aug_548,The system shall Create a helper function to capitalize strings. (Variation 3),0,0,0,0,0,0,trivial,1
+184,API to fetch details for item 12.,0,1,0,0,0,1,api_endpoint,0
+184_aug_549,Ensure that API to fetch details for item 12. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+184_aug_550,It is required to API to fetch details for item 12. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+184_aug_551,The system shall API to fetch details for item 12. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+185,Corporate banking portal for wire transfers.,1,1,1,1,1,1,payment,0
+185_aug_552,Ensure that Corporate banking portal for wire transfers. (Variation 1),1,1,1,1,1,1,payment,1
+185_aug_553,It is required to Corporate banking portal for wire transfers. (Variation 2),1,1,1,1,1,1,payment,1
+185_aug_554,The system shall Corporate banking portal for wire transfers. (Variation 3),1,1,1,1,1,1,payment,1
+186,Admin tool to modify transaction 24.,1,1,0,1,1,0,admin_function,0
+186_aug_555,Ensure that Admin tool to modify transaction 24. (Variation 1),1,1,0,1,1,0,admin_function,1
+186_aug_556,It is required to Admin tool to modify transaction 24. (Variation 2),1,1,0,1,1,0,admin_function,1
+186_aug_557,The system shall Admin tool to modify transaction 24. (Variation 3),1,1,0,1,1,0,admin_function,1
+187,Critical system 26 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+187_aug_558,Ensure that Critical system 26 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+187_aug_559,It is required to Critical system 26 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+187_aug_560,The system shall Critical system 26 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+188,Admin tool to modify transaction 26.,1,1,0,1,1,0,admin_function,0
+188_aug_561,Ensure that Admin tool to modify transaction 26. (Variation 1),1,1,0,1,1,0,admin_function,1
+188_aug_562,It is required to Admin tool to modify transaction 26. (Variation 2),1,1,0,1,1,0,admin_function,1
+188_aug_563,The system shall Admin tool to modify transaction 26. (Variation 3),1,1,0,1,1,0,admin_function,1
+189,Critical system 37 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+189_aug_564,Ensure that Critical system 37 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+189_aug_565,It is required to Critical system 37 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+189_aug_566,The system shall Critical system 37 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+190,API to fetch details for item 13.,0,1,0,0,0,1,api_endpoint,0
+190_aug_567,Ensure that API to fetch details for item 13. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+190_aug_568,It is required to API to fetch details for item 13. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+190_aug_569,The system shall API to fetch details for item 13. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+191,Animation for the dropdown menu opening.,0,0,0,0,0,0,user_interface,0
+191_aug_570,Ensure that Animation for the dropdown menu opening. (Variation 1),0,0,0,0,0,0,user_interface,1
+191_aug_571,It is required to Animation for the dropdown menu opening. (Variation 2),0,0,0,0,0,0,user_interface,1
+191_aug_572,The system shall Animation for the dropdown menu opening. (Variation 3),0,0,0,0,0,0,user_interface,1
+192,Critical system 23 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+192_aug_573,Ensure that Critical system 23 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+192_aug_574,It is required to Critical system 23 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+192_aug_575,The system shall Critical system 23 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+193,Export data to PDF.,0,1,0,0,0,0,reporting,0
+193_aug_576,Ensure that Export data to PDF. (Variation 1),0,1,0,0,0,0,reporting,1
+193_aug_577,It is required to Export data to PDF. (Variation 2),0,1,0,0,0,0,reporting,1
+193_aug_578,The system shall Export data to PDF. (Variation 3),0,1,0,0,0,0,reporting,1
+194,API to fetch details for item 34.,0,1,0,0,0,1,api_endpoint,0
+194_aug_579,Ensure that API to fetch details for item 34. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+194_aug_580,It is required to API to fetch details for item 34. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+194_aug_581,The system shall API to fetch details for item 34. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+195,Update the color scheme for component 0.,0,0,0,0,0,0,user_interface,0
+195_aug_582,Ensure that Update the color scheme for component 0. (Variation 1),0,0,0,0,0,0,user_interface,1
+195_aug_583,It is required to Update the color scheme for component 0. (Variation 2),0,0,0,0,0,0,user_interface,1
+195_aug_584,The system shall Update the color scheme for component 0. (Variation 3),0,0,0,0,0,0,user_interface,1
+196,Critical system 15 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+196_aug_585,Ensure that Critical system 15 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+196_aug_586,It is required to Critical system 15 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+196_aug_587,The system shall Critical system 15 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+197,Admin tool to modify transaction 12.,1,1,0,1,1,0,admin_function,0
+197_aug_588,Ensure that Admin tool to modify transaction 12. (Variation 1),1,1,0,1,1,0,admin_function,1
+197_aug_589,It is required to Admin tool to modify transaction 12. (Variation 2),1,1,0,1,1,0,admin_function,1
+197_aug_590,The system shall Admin tool to modify transaction 12. (Variation 3),1,1,0,1,1,0,admin_function,1
+198,API to fetch details for item 6.,0,1,0,0,0,1,api_endpoint,0
+198_aug_591,Ensure that API to fetch details for item 6. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+198_aug_592,It is required to API to fetch details for item 6. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+198_aug_593,The system shall API to fetch details for item 6. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+199,Allow partners to upload billing XML files.,1,1,0,1,1,0,file_upload,0
+199_aug_594,Ensure that Allow partners to upload billing XML files. (Variation 1),1,1,0,1,1,0,file_upload,1
+199_aug_595,It is required to Allow partners to upload billing XML files. (Variation 2),1,1,0,1,1,0,file_upload,1
+199_aug_596,The system shall Allow partners to upload billing XML files. (Variation 3),1,1,0,1,1,0,file_upload,1
+200,Military grade secure file exchange platform.,1,1,1,1,1,1,file_upload,0
+200_aug_597,Ensure that Military grade secure file exchange platform. (Variation 1),1,1,1,1,1,1,file_upload,1
+200_aug_598,It is required to Military grade secure file exchange platform. (Variation 2),1,1,1,1,1,1,file_upload,1
+200_aug_599,The system shall Military grade secure file exchange platform. (Variation 3),1,1,1,1,1,1,file_upload,1
+201,API to fetch details for item 17.,0,1,0,0,0,1,api_endpoint,0
+201_aug_600,Ensure that API to fetch details for item 17. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+201_aug_601,It is required to API to fetch details for item 17. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+201_aug_602,The system shall API to fetch details for item 17. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+202,Update the color scheme for component 25.,0,0,0,0,0,0,user_interface,0
+202_aug_603,Ensure that Update the color scheme for component 25. (Variation 1),0,0,0,0,0,0,user_interface,1
+202_aug_604,It is required to Update the color scheme for component 25. (Variation 2),0,0,0,0,0,0,user_interface,1
+202_aug_605,The system shall Update the color scheme for component 25. (Variation 3),0,0,0,0,0,0,user_interface,1
+203,Update the color scheme for component 24.,0,0,0,0,0,0,user_interface,0
+203_aug_606,Ensure that Update the color scheme for component 24. (Variation 1),0,0,0,0,0,0,user_interface,1
+203_aug_607,It is required to Update the color scheme for component 24. (Variation 2),0,0,0,0,0,0,user_interface,1
+203_aug_608,The system shall Update the color scheme for component 24. (Variation 3),0,0,0,0,0,0,user_interface,1
+204,Critical system 29 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+204_aug_609,Ensure that Critical system 29 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+204_aug_610,It is required to Critical system 29 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+204_aug_611,The system shall Critical system 29 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+205,API to fetch details for item 27.,0,1,0,0,0,1,api_endpoint,0
+205_aug_612,Ensure that API to fetch details for item 27. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+205_aug_613,It is required to API to fetch details for item 27. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+205_aug_614,The system shall API to fetch details for item 27. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+206,Admin tool to modify transaction 13.,1,1,0,1,1,0,admin_function,0
+206_aug_615,Ensure that Admin tool to modify transaction 13. (Variation 1),1,1,0,1,1,0,admin_function,1
+206_aug_616,It is required to Admin tool to modify transaction 13. (Variation 2),1,1,0,1,1,0,admin_function,1
+206_aug_617,The system shall Admin tool to modify transaction 13. (Variation 3),1,1,0,1,1,0,admin_function,1
+207,Tele-medicine video chat and recording storage.,1,1,1,1,1,1,data_storage,0
+207_aug_618,Ensure that Tele-medicine video chat and recording storage. (Variation 1),1,1,1,1,1,1,data_storage,1
+207_aug_619,It is required to Tele-medicine video chat and recording storage. (Variation 2),1,1,1,1,1,1,data_storage,1
+207_aug_620,The system shall Tele-medicine video chat and recording storage. (Variation 3),1,1,1,1,1,1,data_storage,1
+208,API to fetch details for item 24.,0,1,0,0,0,1,api_endpoint,0
+208_aug_621,Ensure that API to fetch details for item 24. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+208_aug_622,It is required to API to fetch details for item 24. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+208_aug_623,The system shall API to fetch details for item 24. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+209,Admin tool to modify transaction 28.,1,1,0,1,1,0,admin_function,0
+209_aug_624,Ensure that Admin tool to modify transaction 28. (Variation 1),1,1,0,1,1,0,admin_function,1
+209_aug_625,It is required to Admin tool to modify transaction 28. (Variation 2),1,1,0,1,1,0,admin_function,1
+209_aug_626,The system shall Admin tool to modify transaction 28. (Variation 3),1,1,0,1,1,0,admin_function,1
+210,Public form to submit support tickets with attachments.,0,0,0,1,0,1,file_upload,0
+210_aug_627,Ensure that Public form to submit support tickets with attachments. (Variation 1),0,0,0,1,0,1,file_upload,1
+210_aug_628,It is required to Public form to submit support tickets with attachments. (Variation 2),0,0,0,1,0,1,file_upload,1
+210_aug_629,The system shall Public form to submit support tickets with attachments. (Variation 3),0,0,0,1,0,1,file_upload,1
+211,Critical system 8 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+211_aug_630,Ensure that Critical system 8 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+211_aug_631,It is required to Critical system 8 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+211_aug_632,The system shall Critical system 8 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+212,Stock trading algorithm configuration interface.,1,1,1,1,1,1,user_interface,0
+212_aug_633,Ensure that Stock trading algorithm configuration interface. (Variation 1),1,1,1,1,1,1,user_interface,1
+212_aug_634,It is required to Stock trading algorithm configuration interface. (Variation 2),1,1,1,1,1,1,user_interface,1
+212_aug_635,The system shall Stock trading algorithm configuration interface. (Variation 3),1,1,1,1,1,1,user_interface,1
+213,API endpoint to search for products by name.,0,0,0,1,0,1,api_endpoint,0
+213_aug_636,Ensure that API endpoint to search for products by name. (Variation 1),0,0,0,1,0,1,api_endpoint,1
+213_aug_637,It is required to API endpoint to search for products by name. (Variation 2),0,0,0,1,0,1,api_endpoint,1
+213_aug_638,The system shall API endpoint to search for products by name. (Variation 3),0,0,0,1,0,1,api_endpoint,1
+214,Critical system 32 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+214_aug_639,Ensure that Critical system 32 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+214_aug_640,It is required to Critical system 32 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+214_aug_641,The system shall Critical system 32 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+215,Critical system 39 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+215_aug_642,Ensure that Critical system 39 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+215_aug_643,It is required to Critical system 39 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+215_aug_644,The system shall Critical system 39 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1
+216,Admin tool to modify transaction 38.,1,1,0,1,1,0,admin_function,0
+216_aug_645,Ensure that Admin tool to modify transaction 38. (Variation 1),1,1,0,1,1,0,admin_function,1
+216_aug_646,It is required to Admin tool to modify transaction 38. (Variation 2),1,1,0,1,1,0,admin_function,1
+216_aug_647,The system shall Admin tool to modify transaction 38. (Variation 3),1,1,0,1,1,0,admin_function,1
+217,Send SMS notifications with OTP.,0,0,0,0,1,1,notification,0
+217_aug_648,Ensure that Send SMS notifications with OTP. (Variation 1),0,0,0,0,1,1,notification,1
+217_aug_649,It is required to Send SMS notifications with OTP. (Variation 2),0,0,0,0,1,1,notification,1
+217_aug_650,The system shall Send SMS notifications with OTP. (Variation 3),0,0,0,0,1,1,notification,1
+218,API to fetch details for item 11.,0,1,0,0,0,1,api_endpoint,0
+218_aug_651,Ensure that API to fetch details for item 11. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+218_aug_652,It is required to API to fetch details for item 11. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+218_aug_653,The system shall API to fetch details for item 11. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+219,API to fetch details for item 10.,0,1,0,0,0,1,api_endpoint,0
+219_aug_654,Ensure that API to fetch details for item 10. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+219_aug_655,It is required to API to fetch details for item 10. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+219_aug_656,The system shall API to fetch details for item 10. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+220,Admin tool to modify transaction 8.,1,1,0,1,1,0,admin_function,0
+220_aug_657,Ensure that Admin tool to modify transaction 8. (Variation 1),1,1,0,1,1,0,admin_function,1
+220_aug_658,It is required to Admin tool to modify transaction 8. (Variation 2),1,1,0,1,1,0,admin_function,1
+220_aug_659,The system shall Admin tool to modify transaction 8. (Variation 3),1,1,0,1,1,0,admin_function,1
+221,API to fetch details for item 21.,0,1,0,0,0,1,api_endpoint,0
+221_aug_660,Ensure that API to fetch details for item 21. (Variation 1),0,1,0,0,0,1,api_endpoint,1
+221_aug_661,It is required to API to fetch details for item 21. (Variation 2),0,1,0,0,0,1,api_endpoint,1
+221_aug_662,The system shall API to fetch details for item 21. (Variation 3),0,1,0,0,0,1,api_endpoint,1
+222,Critical system 2 handling sensitive PII and payments.,1,1,1,1,1,1,integration,0
+222_aug_663,Ensure that Critical system 2 handling sensitive PII and payments. (Variation 1),1,1,1,1,1,1,integration,1
+222_aug_664,It is required to Critical system 2 handling sensitive PII and payments. (Variation 2),1,1,1,1,1,1,integration,1
+222_aug_665,The system shall Critical system 2 handling sensitive PII and payments. (Variation 3),1,1,1,1,1,1,integration,1

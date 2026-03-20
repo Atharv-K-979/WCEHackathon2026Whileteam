@@ -1,0 +1,13 @@
+# System Login Spec
+
+The user enters their username and password on the login page.
+The system validates the credentials against the user table.
+If valid, the user is redirected to the dashboard.
+The user's session ID is stored in a cookie.
+Passwords are stored in the database.
+
+# File Upload
+
+Users can upload profile pictures.
+The files are saved to the /uploads directory.
+Run the file immediately after upload to generate a thumbnail.

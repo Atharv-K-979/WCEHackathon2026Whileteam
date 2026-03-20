@@ -1,0 +1,40 @@
+<style>
+    .warning-modal {
+        width: 450px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        padding: 24px;
+        font-family: sans-serif;
+    }
+    .warning-header { font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+    .warning-body { font-size: 14px; color: #555; margin-bottom: 20px; }
+    .alert-box {
+        background-color: #fff5f5;
+        border: 1px solid #feb2b2;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .alert-item { display: flex; align-items: center; margin-bottom: 8px; color: #c53030; font-weight: 600; font-size: 13px; }
+    .dot { height: 10px; width: 10px; background-color: #f56565; border-radius: 50%; margin-right: 10px; }
+    .btn-group { display: flex; gap: 10px; justify-content: flex-end; }
+    .btn-redact { background: #e53e3e; color: white; border: none; padding: 10px 20px; border-radius: 6px; font-weight: bold; cursor: pointer; }
+    .btn-outline { background: #edf2f7; color: #4a5568; border: none; padding: 10px 20px; border-radius: 6px; font-weight: bold; cursor: pointer; }
+</style>
+
+<div class="warning-modal">
+    <div class="warning-header">Sensitive Data Warning</div>
+    <div class="warning-body">VESSEL detected 2 sensitive item(s):</div>
+    
+    <div class="alert-box">
+        <div class="alert-item"><span class="dot"></span> AWS Access Key</div>
+        <div class="alert-item" style="margin-bottom:0;"><span class="dot"></span> Generic Credential / Password</div>
+    </div>
+
+    <div class="btn-group">
+        <button class="btn-redact">Redact & Paste</button>
+        <button class="btn-outline">Paste Original</button>
+        <button class="btn-outline">Cancel</button>
+    </div>
+</div>

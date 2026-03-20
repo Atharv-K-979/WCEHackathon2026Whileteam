@@ -1,0 +1,223 @@
+id,text,missing_auth,missing_authz,missing_encryption,missing_validation,missing_audit,missing_ratelimit,category
+1,Center the logo image on the landing page.,0,0,0,0,0,0,user_interface
+2,API to fetch details for item 32.,0,1,0,0,0,1,api_endpoint
+3,Update the color scheme for component 19.,0,0,0,0,0,0,user_interface
+4,Endpoint to reset password via email link.,0,0,1,1,1,1,authentication
+5,Send SMS notifications with OTP.,1,0,0,1,1,1,notification
+6,Admin tool to modify transaction 21.,1,1,0,1,1,0,admin_function
+7,Store user medical history in the DB.,1,1,1,0,1,0,data_storage
+8,Admin tool to modify transaction 27.,1,1,0,1,1,0,admin_function
+9,Admin tool to modify transaction 35.,1,1,0,1,1,0,admin_function
+10,Government ID verification service.,1,1,1,1,1,1,integration
+11,Admin tool to modify transaction 17.,1,1,0,1,1,0,admin_function
+12,Validate that the email field contains an '@' symbol.,0,0,0,0,0,0,user_interface
+13,Change the font size of the header to 24px.,0,0,0,0,0,0,user_interface
+14,Critical system 38 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+15,Admin tool to modify transaction 1.,1,1,0,1,1,0,admin_function
+16,Critical system 24 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+17,Admin tool to modify transaction 18.,1,1,0,1,1,0,admin_function
+18,Synchronize all customer data to external CRM.,1,0,1,0,1,0,integration
+19,API to fetch details for item 16.,0,1,0,0,0,1,api_endpoint
+20,API to fetch details for item 5.,0,1,0,0,0,1,api_endpoint
+21,Update the color scheme for component 1.,0,0,0,0,0,0,user_interface
+22,Critical system 7 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+23,Update the color scheme for component 13.,0,0,0,0,0,0,user_interface
+24,Endpoint to update user status message.,1,0,0,1,0,0,api_endpoint
+25,Update the color scheme for component 26.,0,0,0,0,0,0,user_interface
+26,API to fetch details for item 3.,0,1,0,0,0,1,api_endpoint
+27,Hide the sidebar on mobile devices.,0,0,0,0,0,0,user_interface
+28,Write a script to count lines in a text file.,0,0,0,0,0,0,trivial
+29,Webhook listener for 3rd party events.,1,0,0,1,0,0,integration
+30,Create an API to transfer funds between accounts.,1,1,0,1,1,0,payment
+31,Update the color scheme for component 10.,0,0,0,0,0,0,user_interface
+32,Admin tool to modify transaction 9.,1,1,0,1,1,0,admin_function
+33,Sort the table of product names alphabetically.,0,0,0,0,0,0,user_interface
+34,Display the version number in the settings menu.,0,0,0,0,0,0,user_interface
+35,Create user registration flow.,0,0,1,1,0,1,authentication
+36,Nuclear reactor control dashboard.,1,1,1,1,1,1,admin_function
+37,Critical system 13 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+38,API to fetch details for item 22.,0,1,0,0,0,1,api_endpoint
+39,Update the color scheme for component 2.,0,0,0,0,0,0,user_interface
+40,Critical system 11 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+41,Implement a dark mode toggle switch.,0,0,0,0,0,0,user_interface
+42,Calculate the Fibonacci sequence up to 100.,0,0,0,0,0,0,trivial
+43,Upload CSV to import contacts.,0,0,0,1,0,1,file_upload
+44,Format the date string to DD/MM/YYYY.,0,0,0,0,0,0,user_interface
+45,Admin tool to modify transaction 32.,1,1,0,1,1,0,admin_function
+46,API to fetch details for item 8.,0,1,0,0,0,1,api_endpoint
+47,Admin tool to modify transaction 33.,1,1,0,1,1,0,admin_function
+48,Admin tool to modify transaction 16.,1,1,0,1,1,0,admin_function
+49,Critical system 34 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+50,Update the color scheme for component 11.,0,0,0,0,0,0,user_interface
+51,Admin tool to modify transaction 34.,1,1,0,1,1,0,admin_function
+52,API to fetch details for item 25.,0,1,0,0,0,1,api_endpoint
+53,Admin tool to modify transaction 15.,1,1,0,1,1,0,admin_function
+54,Delete account feature.,1,1,0,0,1,0,user_interface
+55,Dashboard to view other users' private messages (Designated Support Staff).,1,1,1,0,1,0,admin_function
+56,Fetch user profile details by ID.,0,1,0,0,0,0,api_endpoint
+57,Update the color scheme for component 28.,0,0,0,0,0,0,user_interface
+58,Admin tool to modify transaction 29.,1,1,0,1,1,0,admin_function
+59,Update the color scheme for component 9.,0,0,0,0,0,0,user_interface
+60,Admin tool to modify transaction 3.,1,1,0,1,1,0,admin_function
+61,Admin tool to modify transaction 6.,1,1,0,1,1,0,admin_function
+62,Admin tool to modify transaction 37.,1,1,0,1,1,0,admin_function
+63,Render a blue submit button on the form.,0,0,0,0,0,0,user_interface
+64,API to fetch details for item 9.,0,1,0,0,0,1,api_endpoint
+65,Store user delivery address in the database.,0,0,1,1,0,0,data_storage
+66,Critical system 17 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+67,Function to change user password.,1,0,1,0,1,0,authentication
+68,Critical system 30 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+69,Admin tool to modify transaction 10.,1,1,0,1,1,0,admin_function
+70,Add a placeholder text to the search input.,0,0,0,0,0,0,user_interface
+71,Critical system 35 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+72,Critical system 19 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+73,Admin tool to modify transaction 23.,1,1,0,1,1,0,admin_function
+74,Critical system 6 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+75,API to fetch details for item 2.,0,1,0,0,0,1,api_endpoint
+76,Admin tool to modify transaction 14.,1,1,0,1,1,0,admin_function
+77,API to fetch details for item 23.,0,1,0,0,0,1,api_endpoint
+78,Critical system 1 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+79,Implement a custom crypto algorithm to store passwords.,0,0,1,0,0,0,authentication
+80,Refactor the navigation bar CSS.,0,0,0,0,0,0,user_interface
+81,Admin page to view system logs.,1,1,0,0,0,0,admin_function
+82,API to fetch details for item 30.,0,1,0,0,0,1,api_endpoint
+83,Critical system 31 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+84,API to fetch details for item 1.,0,1,0,0,0,1,api_endpoint
+85,API to fetch details for item 0.,0,1,0,0,0,1,api_endpoint
+86,Healthcare patient management system with external API access.,1,1,1,1,1,1,integration
+87,Admin tool to modify transaction 30.,1,1,0,1,1,0,admin_function
+88,Build a public endpoint that accepts SQL queries in JSON to return specific table data.,1,1,1,1,1,1,api_endpoint
+89,Scroll to top when the button is clicked.,0,0,0,0,0,0,user_interface
+90,API to fetch details for item 33.,0,1,0,0,0,1,api_endpoint
+91,Update the color scheme for component 4.,0,0,0,0,0,0,user_interface
+92,Critical system 33 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+93,Cache user session data in Redis.,0,0,1,0,0,0,data_storage
+94,Admin tool to modify transaction 36.,1,1,0,1,1,0,admin_function
+95,Integration with Stripe to process a charge.,0,0,1,0,1,0,payment
+96,Update the color scheme for component 23.,0,0,0,0,0,0,user_interface
+97,API to fetch details for item 4.,0,1,0,0,0,1,api_endpoint
+98,Critical system 25 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+99,Critical system 3 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+100,Allow users to upload a profile picture.,0,1,0,1,0,0,file_upload
+101,Admin tool to modify transaction 25.,1,1,0,1,1,0,admin_function
+102,Critical system 10 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+103,Allow users to upload executable files to the server root via FTP.,1,1,0,1,1,1,file_upload
+104,API to fetch details for item 19.,0,1,0,0,0,1,api_endpoint
+105,Update the color scheme for component 22.,0,0,0,0,0,0,user_interface
+106,Voter registration database with public search.,1,1,1,1,1,1,data_storage
+107,API to fetch details for item 28.,0,1,0,0,0,1,api_endpoint
+108,Allow comments on blog posts.,0,0,0,1,0,1,user_interface
+109,API to fetch details for item 29.,0,1,0,0,0,1,api_endpoint
+110,Admin tool to modify transaction 4.,1,1,0,1,1,0,admin_function
+111,Admin tool to modify transaction 11.,1,1,0,1,1,0,admin_function
+112,Root level system configuration API.,1,1,1,1,1,1,admin_function
+113,Update the color scheme for component 5.,0,0,0,0,0,0,user_interface
+114,Critical system 18 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+115,API to fetch details for item 15.,0,1,0,0,0,1,api_endpoint
+116,Admin tool to modify transaction 39.,1,1,0,1,1,0,admin_function
+117,Background job to send weekly email newsletters.,0,0,0,0,0,1,notification
+118,Create a unit test for the sum function.,0,0,0,0,0,0,trivial
+119,Update the color scheme for component 17.,0,0,0,0,0,0,user_interface
+120,Create a constant for the API base URL.,0,0,0,0,0,0,trivial
+121,Critical system 20 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+122,Public form to submit support tickets with attachments.,0,0,1,1,0,1,file_upload
+123,Check if the list is empty before rendering.,0,0,0,0,0,0,trivial
+124,Create a 'super admin' backdoor that accepts a master key to bypass login and download full DB.,1,1,1,1,1,1,admin_function
+125,Update the color scheme for component 3.,0,0,0,0,0,0,user_interface
+126,API to fetch details for item 31.,0,1,0,0,0,1,api_endpoint
+127,API to retrieve public config.,0,0,0,0,0,1,api_endpoint
+128,Internal dashboard for sales stats.,1,1,0,0,0,0,reporting
+129,Critical system 28 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+130,Update the color scheme for component 7.,0,0,0,0,0,0,user_interface
+131,Admin tool to modify transaction 7.,1,1,0,1,1,0,admin_function
+132,Admin tool to modify transaction 0.,1,1,0,1,1,0,admin_function
+133,Update the color scheme for component 21.,0,0,0,0,0,0,user_interface
+134,Admin tool to modify transaction 2.,1,1,0,1,1,0,admin_function
+135,API to verify credit card which stores the CVV and full number in logs.,1,1,1,1,1,1,payment
+136,Admin tool to modify transaction 31.,1,1,0,1,1,0,admin_function
+137,Critical system 14 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+138,Update the color scheme for component 15.,0,0,0,0,0,0,user_interface
+139,Create a function to convert Celsius to Fahrenheit.,0,0,0,0,0,0,trivial
+140,Critical system 16 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+141,Critical system 21 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+142,Update the color scheme for component 18.,0,0,0,0,0,0,user_interface
+143,Critical system 4 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+144,API to fetch details for item 20.,0,1,0,0,0,1,api_endpoint
+145,Critical system 9 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+146,Update the color scheme for component 20.,0,0,0,0,0,0,user_interface
+147,Critical system 12 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+148,API to fetch details for item 26.,0,1,0,0,0,1,api_endpoint
+149,API to fetch details for item 18.,0,1,0,0,0,1,api_endpoint
+150,Critical system 0 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+151,Update the color scheme for component 14.,0,0,0,0,0,0,user_interface
+152,API to fetch details for item 7.,0,1,0,0,0,1,api_endpoint
+153,Save credit card token.,0,0,1,0,1,0,payment
+154,Save API keys in potential plain text.,0,0,1,0,1,0,data_storage
+155,Full payment processing module handling credit cards and bank transfers.,1,1,1,1,1,1,payment
+156,Admin tool to modify transaction 22.,1,1,0,1,1,0,admin_function
+157,Display list of past orders.,1,1,0,0,0,0,reporting
+158,Update the color scheme for component 6.,0,0,0,0,0,0,user_interface
+159,Critical system 27 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+160,Critical system 36 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+161,Critical system 22 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+162,Critical system 5 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+163,Log 'Hello World' to the console on startup.,0,0,0,0,0,0,trivial
+164,API to execute server-side scripts.,1,1,0,1,1,0,admin_function
+165,Update the color scheme for component 27.,0,0,0,0,0,0,user_interface
+166,Admin tool to modify transaction 5.,1,1,0,1,1,0,admin_function
+167,Show a tooltip when hovering over the help icon.,0,0,0,0,0,0,user_interface
+168,Endpoint to serialize and deserialize arbitrary Python objects from user input.,1,1,1,1,1,1,integration
+169,Update the color scheme for component 29.,0,0,0,0,0,0,user_interface
+170,Update the color scheme for component 16.,0,0,0,0,0,0,user_interface
+171,Update the color scheme for component 12.,0,0,0,0,0,0,user_interface
+172,Update the footer copyright year dynamically.,0,0,0,0,0,0,user_interface
+173,Update the color scheme for component 8.,0,0,0,0,0,0,user_interface
+174,Parse the JSON response from the weather API.,0,0,0,0,0,0,integration
+175,API to fetch details for item 14.,0,1,0,0,0,1,api_endpoint
+176,Feature to impersonate users for debugging.,1,1,0,0,1,0,admin_function
+177,Display a loading spinner while fetching data.,0,0,0,0,0,0,user_interface
+178,Admin tool to modify transaction 20.,1,1,0,1,1,0,admin_function
+179,Save API keys for third party integrations.,1,1,1,0,1,0,data_storage
+180,Create a login form taking email and password.,0,1,0,1,0,0,authentication
+181,Admin interface to query the database directly.,1,1,1,1,0,0,admin_function
+182,Admin tool to modify transaction 19.,1,1,0,1,1,0,admin_function
+183,Create a helper function to capitalize strings.,0,0,0,0,0,0,trivial
+184,API to fetch details for item 12.,0,1,0,0,0,1,api_endpoint
+185,Corporate banking portal for wire transfers.,1,1,1,1,1,1,payment
+186,Admin tool to modify transaction 24.,1,1,0,1,1,0,admin_function
+187,Critical system 26 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+188,Admin tool to modify transaction 26.,1,1,0,1,1,0,admin_function
+189,Critical system 37 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+190,API to fetch details for item 13.,0,1,0,0,0,1,api_endpoint
+191,Animation for the dropdown menu opening.,0,0,0,0,0,0,user_interface
+192,Critical system 23 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+193,Export data to PDF.,0,1,0,0,0,0,reporting
+194,API to fetch details for item 34.,0,1,0,0,0,1,api_endpoint
+195,Update the color scheme for component 0.,0,0,0,0,0,0,user_interface
+196,Critical system 15 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+197,Admin tool to modify transaction 12.,1,1,0,1,1,0,admin_function
+198,API to fetch details for item 6.,0,1,0,0,0,1,api_endpoint
+199,Allow partners to upload billing XML files.,1,1,0,1,1,0,file_upload
+200,Military grade secure file exchange platform.,1,1,1,1,1,1,file_upload
+201,API to fetch details for item 17.,0,1,0,0,0,1,api_endpoint
+202,Update the color scheme for component 25.,0,0,0,0,0,0,user_interface
+203,Update the color scheme for component 24.,0,0,0,0,0,0,user_interface
+204,Critical system 29 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+205,API to fetch details for item 27.,0,1,0,0,0,1,api_endpoint
+206,Admin tool to modify transaction 13.,1,1,0,1,1,0,admin_function
+207,Tele-medicine video chat and recording storage.,1,1,1,1,1,1,data_storage
+208,API to fetch details for item 24.,0,1,0,0,0,1,api_endpoint
+209,Admin tool to modify transaction 28.,1,1,0,1,1,0,admin_function
+210,Public form to submit support tickets with attachments.,0,0,0,1,0,1,file_upload
+211,Critical system 8 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+212,Stock trading algorithm configuration interface.,1,1,1,1,1,1,user_interface
+213,API endpoint to search for products by name.,0,0,0,1,0,1,api_endpoint
+214,Critical system 32 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+215,Critical system 39 handling sensitive PII and payments.,1,1,1,1,1,1,integration
+216,Admin tool to modify transaction 38.,1,1,0,1,1,0,admin_function
+217,Send SMS notifications with OTP.,0,0,0,0,1,1,notification
+218,API to fetch details for item 11.,0,1,0,0,0,1,api_endpoint
+219,API to fetch details for item 10.,0,1,0,0,0,1,api_endpoint
+220,Admin tool to modify transaction 8.,1,1,0,1,1,0,admin_function
+221,API to fetch details for item 21.,0,1,0,0,0,1,api_endpoint
+222,Critical system 2 handling sensitive PII and payments.,1,1,1,1,1,1,integration
